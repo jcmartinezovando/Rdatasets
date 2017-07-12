@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| koch                                 |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------+-------------------+
+| koch   | R Documentation   |
++--------+-------------------+
 
 Ordinal Data from Koch
 ----------------------
@@ -43,4 +42,3 @@ Examples
     data(koch)
     fit <- ordgee(ordered(y) ~ trt + as.factor(day), id=id, data=koch, corstr="exch")
     summary(fit)
-

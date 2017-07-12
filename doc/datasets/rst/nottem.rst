@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| nottem                               |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------+-------------------+
+| nottem   | R Documentation   |
++----------+-------------------+
 
 Average Monthly Temperatures at Nottingham, 1920–1939
 -----------------------------------------------------
@@ -36,4 +35,3 @@ Examples
     nott.fore <- predict(fit, n.ahead = 36)
     ts.plot(nott, nott.fore$pred, nott.fore$pred+2*nott.fore$se,
             nott.fore$pred-2*nott.fore$se, gpars = list(col = c(1,1,4,4)))
-

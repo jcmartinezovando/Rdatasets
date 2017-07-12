@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Wages                                |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------+-------------------+
+| Wages   | R Documentation   |
++---------+-------------------+
 
 Panel Data of Individual Wages
 ------------------------------
@@ -10,9 +9,9 @@ Description
 ~~~~~~~~~~~
 
 | A panel of 595 individuals from 1976 to 1982, taken from the Panel
-Study of Income Dynamics (PSID).
-|  The data are organized as a stacked time series/balanced panel, see
-**Examples** on how to convert to a ``pdata.frame``.
+  Study of Income Dynamics (PSID).
+| The data are organized as a stacked time series/balanced panel, see
+  **Examples** on how to convert to a ``pdata.frame``.
 
 *total number of observations* : 4165
 
@@ -100,4 +99,3 @@ Examples
     # data set 'Wages' is organized as a stacked time series/balanced panel
     data("Wages", package = "plm")
     Wag <- pdata.frame(Wages, index=595)
-

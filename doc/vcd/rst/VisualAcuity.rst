@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| VisualAcuity                         |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------------+-------------------+
+| VisualAcuity   | R Documentation   |
++----------------+-------------------+
 
 Visual Acuity in Left and Right Eyes
 ------------------------------------
@@ -62,4 +61,3 @@ Examples
     sieve(Freq ~ left + right | gender, data = VisualAcuity, shade = TRUE)
     cotabplot(Freq ~ left + right | gender, data = VisualAcuity,
               panel = cotab_agreementplot)
-

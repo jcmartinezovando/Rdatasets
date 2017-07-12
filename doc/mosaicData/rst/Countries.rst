@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Countries                            |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------------+-------------------+
+| Countries   | R Documentation   |
++-------------+-------------------+
 
 Countries
 ---------
@@ -50,4 +49,3 @@ Examples
     subset(Countries, maps=="Yugoslavia")  # Where has Yugoslavia gone?
     subset(Countries, is.na(gapminder))    # Things from maps with no GapMinder equivalent
     subset(Countries, is.na(maps))         # Things from GapMinder with no maps equivalent
-

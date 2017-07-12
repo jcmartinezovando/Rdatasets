@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| tomato                               |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------+-------------------+
+| tomato   | R Documentation   |
++----------+-------------------+
 
 Root weights of tomato plants exposed to 4 different treatments
 ---------------------------------------------------------------
@@ -47,4 +46,3 @@ Examples
     summary.lm(tomato.aov)
     tomato.aov <- aov(formula = weight ~ trt, data = tomato)
     summary.lm(tomato.aov)
-

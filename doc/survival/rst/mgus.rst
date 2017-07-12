@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| mgus                                 |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------+-------------------+
+| mgus   | R Documentation   |
++--------+-------------------+
 
 Monoclonal gammapothy data
 --------------------------
@@ -77,16 +76,20 @@ hemoglobin at MGUS diagnosis
 
 mspike:
 
-size of the monoclonal protien spike at diagnosis
+size of the monoclonal protein spike at diagnosis
 
 mgus1: The same data set in start,stop format. Contains the id, age,
 sex, and laboratory variable described above along with
 
-+--------------------------------------+--------------------------------------+
-| start, stop:                         | status:                              |
-| sequential intervals of time for     | =1 if the interval ends in an event  |
-| each subject                         |                                      |
-+--------------------------------------+--------------------------------------+
++----------------+--------------------------------------------------------------------------------+
+| start, stop:   | sequential intervals of time for each subject                                  |
++----------------+--------------------------------------------------------------------------------+
+| status:        | =1 if the interval ends in an event                                            |
++----------------+--------------------------------------------------------------------------------+
+| event:         | a factor containing the event type: censor, death, or plasma cell malignancy   |
++----------------+--------------------------------------------------------------------------------+
+| enum:          | event number for each subject: 1 or 2                                          |
++----------------+--------------------------------------------------------------------------------+
 
 Details
 ~~~~~~~
@@ -95,7 +98,7 @@ Plasma cells are responsible for manufacturing immunoglobulins, an
 important part of the immune defense. At any given time there are
 estimated to be about *10^6* different immunoglobulins in the
 circulation at any one time. When a patient has a plasma cell malignancy
-the distribuion will become dominated by a single isotype, the product
+the distribution will become dominated by a single isotype, the product
 of the malignant clone, visible as a spike on a serum protein
 electrophoresis. Monoclonal gammapothy of undertermined significance
 (MGUS) is the presence of such a spike, but in a patient with no
@@ -138,4 +141,3 @@ Examples
     title("Curves for the first of plasma cell malignancy or death")
     # The plot shows that males have a higher death rate than females (no
     # surprise) but their rates of conversion to PCM are essentially the same.
-

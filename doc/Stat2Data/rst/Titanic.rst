@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Titanic                              |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------+-------------------+
+| Titanic   | R Documentation   |
++-----------+-------------------+
 
 Titanic
 -------
@@ -55,6 +54,6 @@ Source
 ~~~~~~
 
 | Philip Hinde's Encyclopedia Titanica,
-http://www.encyclopedia-titanica.org/. Data may also be downloaded from
-the Australasian Data and Story Library (OzDASL) at
-|  http://www.statsci.org/data/general/titanic.html.
+  http://www.encyclopedia-titanica.org/. Data may also be downloaded
+  from the Australasian Data and Story Library (OzDASL) at
+| http://www.statsci.org/data/general/titanic.html.

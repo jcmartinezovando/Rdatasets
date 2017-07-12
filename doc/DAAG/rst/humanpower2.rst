@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| humanpower                           |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------------+-------------------+
+| humanpower   | R Documentation   |
++--------------+-------------------+
 
 Oxygen uptake versus mechanical power, for humans
 -------------------------------------------------
@@ -70,4 +69,3 @@ Examples
     plot(humanpower1)
     lm(o2 ~ id + wattsPerKg:id, data=humanpower1)
     lm(o2 ~ id + wattsPerKg:id, data=humanpower2)
-

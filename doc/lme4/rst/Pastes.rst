@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Pastes                               |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------+-------------------+
+| Pastes   | R Documentation   |
++----------+-------------------+
 
 Paste strength by batch and cask
 --------------------------------
@@ -83,4 +82,3 @@ Examples
 
     L <- getME(fm1, "L")
     Matrix::image(L, sub = "Structure of random effects interaction in pastes model")
-

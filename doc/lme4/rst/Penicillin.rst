@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Penicillin                           |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------------+-------------------+
+| Penicillin   | R Documentation   |
++--------------+-------------------+
 
 Variation in penicillin testing
 -------------------------------
@@ -67,4 +66,3 @@ Examples
     L <- getME(fm1, "L")
     Matrix::image(L, main = "L",
                   sub = "Penicillin: Structure of random effects interaction")
-

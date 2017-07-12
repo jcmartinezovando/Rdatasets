@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| epi                                  |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------+-------------------+
+| epi   | R Documentation   |
++-------+-------------------+
 
 Eysenck Personality Inventory (EPI) data for 3570 participants
 --------------------------------------------------------------
@@ -250,4 +249,3 @@ Examples
       N <- epi[abs(epi.keys[,"N"]) >0]
       E <- epi[abs(epi.keys[,"E"]) >0]
       fa.lookup(epi.keys[,1:3],epi.dictionary) #show the items and keying information
-

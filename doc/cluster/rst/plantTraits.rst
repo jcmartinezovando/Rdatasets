@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| plantTraits                          |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------------+-------------------+
+| plantTraits   | R Documentation   |
++---------------+-------------------+
 
 Plant Species Traits Data
 -------------------------
@@ -162,4 +161,3 @@ Examples
     ## Principal Coordinate Analysis
     cmdsdai.b <- cmdscale(dai.b, k=6)
     plot(cmdsdai.b[, 1:2], asp = 1, col = cutree6)
-

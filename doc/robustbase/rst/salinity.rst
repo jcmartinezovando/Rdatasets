@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| salinity                             |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++------------+-------------------+
+| salinity   | R Documentation   |
++------------+-------------------+
 
 Salinity Data
 -------------
@@ -98,4 +97,3 @@ Examples
      ## *two* typos (=> difference ~= 1) in the version of 'boot': obs. 2 & 8 !!!
      cbind(robb = robb.sal[,4], boot = boot.sal[,4], D.sal)
     }# boot
-

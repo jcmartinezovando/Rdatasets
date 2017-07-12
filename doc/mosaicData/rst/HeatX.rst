@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| HeatX                                |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------+-------------------+
+| HeatX   | R Documentation   |
++---------+-------------------+
 
 Data from a heat exchanger laboratory
 -------------------------------------
@@ -61,4 +60,3 @@ Examples
       stripplot( ~ Q.env, data=HeatX2, alpha=.6, cex=2, jitter.data=TRUE, factor=4)
       t.test( ~Q.env, data = HeatX2 )
     }
-

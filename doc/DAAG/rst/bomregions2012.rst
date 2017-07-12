@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| bomregions                           |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------------+-------------------+
+| bomregions   | R Documentation   |
++--------------+-------------------+
 
 Australian and Related Historical Annual Climate Data, by region
 ----------------------------------------------------------------
@@ -171,4 +170,3 @@ Examples
     with(xbomsoi, lines(lowess(detrendRain ~ detrendSOI, f=0.75)))
     mtext(side = 3, line = 0.8, "B", adj = -0.025)
     par(mfrow=c(1,1))
-

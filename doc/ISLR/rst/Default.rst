@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Default                              |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------+-------------------+
+| Default   | R Documentation   |
++-----------+-------------------+
 
 Credit Card Default Data
 ------------------------
@@ -60,4 +59,3 @@ Examples
 
     summary(Default)
     glm(default~student+balance+income,family="binomial",data=Default)
-

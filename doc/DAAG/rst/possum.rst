@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| possum                               |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------+-------------------+
+| possum   | R Documentation   |
++----------+-------------------+
 
 Possum Measurements
 -------------------
@@ -128,4 +127,3 @@ Examples
     plot(possum.lda, dimen=3)
       # Scatterplot matrix - scores on 1st 3 canonical variates (Figure 11.4)
     possum.lda
-

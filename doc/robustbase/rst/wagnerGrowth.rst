@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| wagnerGrowth                         |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------------+-------------------+
+| wagnerGrowth   | R Documentation   |
++----------------+-------------------+
 
 Wagner's Hannover Employment Growth Data
 ----------------------------------------
@@ -82,4 +81,3 @@ Examples
     (dotplot(y ~ reorder(Region,y,median), data = wagnerGrowth,
              main = "wagnerGrowth",
              xlab = "Region [ordered by  median(y | Region) ]"))
-

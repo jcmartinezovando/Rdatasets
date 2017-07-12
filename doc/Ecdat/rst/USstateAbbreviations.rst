@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| USstateAbbreviations                 |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++------------------------+-------------------+
+| USstateAbbreviations   | R Documentation   |
++------------------------+-------------------+
 
 Standard abbreviations for states of the United States
 ------------------------------------------------------
@@ -74,4 +73,3 @@ Examples
     USstateAbb2 <- readUSstateAbbreviations()
 
     ## End(Not run)
-

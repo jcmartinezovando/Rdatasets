@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| pressure                             |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++------------+-------------------+
+| pressure   | R Documentation   |
++------------+-------------------+
 
 Vapor Pressure of Mercury as a Function of Temperature
 ------------------------------------------------------
@@ -24,13 +23,11 @@ Format
 
 A data frame with 19 observations on 2 variables.
 
-+--------------------+--------------------+--------------------+--------------------+
-| [, 1]              | [, 2]              |
-| temperature        | pressure           |
-| numeric            | numeric            |
-| temperature (deg   | pressure (mm)      |
-| C)                 |                    |
-+--------------------+--------------------+--------------------+--------------------+
++---------+---------------+-----------+-----------------------+
+| [, 1]   | temperature   | numeric   | temperature (deg C)   |
++---------+---------------+-----------+-----------------------+
+| [, 2]   | pressure      | numeric   | pressure (mm)         |
++---------+---------------+-----------+-----------------------+
 
 Source
 ~~~~~~
@@ -54,4 +51,3 @@ Examples
     plot(pressure, xlab = "Temperature (deg C)",  log = "y",
          ylab = "Pressure (mm of Hg)",
          main = "pressure data: Vapor Pressure of Mercury")
-

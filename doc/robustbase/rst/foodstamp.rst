@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| foodstamp                            |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------------+-------------------+
+| foodstamp   | R Documentation   |
++-------------+-------------------+
 
 Food Stamp Program Participation
 --------------------------------
@@ -85,4 +84,3 @@ Examples
                   weights.on.x = "robCov")
     summary(rm2)## aha, now the weights are different:
     which( weights(rm2, type="robust") < 0.5)
-

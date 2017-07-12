@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Prostitutes                          |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------------+-------------------+
+| Prostitutes   | R Documentation   |
++---------------+-------------------+
 
 Parent-Duchatelet's time-series data on the number of prostitutes in Paris
 --------------------------------------------------------------------------
@@ -61,4 +60,3 @@ Examples
 
     data(Prostitutes)
     ## maybe str(Prostitutes) ; plot(Prostitutes) ...
-

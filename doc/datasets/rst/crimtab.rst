@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| crimtab                              |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------+-------------------+
+| crimtab   | R Documentation   |
++-----------+-------------------+
 
 Student's 3000 Criminals Data
 -----------------------------
@@ -135,4 +134,3 @@ Examples
     hist(x = zobs, probability = TRUE, xlab = "Student's z",
          col = grey(0.8), border = grey(0.5),
          main = "Distribution of Student's z score  for 'crimtab' data")
-

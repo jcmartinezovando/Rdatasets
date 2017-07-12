@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| cgd                                  |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------+-------------------+
+| cgd   | R Documentation   |
++-------+-------------------+
 
 Chronic Granulotomous Disease data
 ----------------------------------
@@ -24,7 +23,7 @@ Format
 ~~~~~~
 
 id
-    subject identifiction number
+    subject identification number
 
 center
     enrolling center

@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| cushny                               |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------+-------------------+
+| cushny   | R Documentation   |
++----------+-------------------+
 
 A data set from Cushny and Peebles (1905) on the effect of three drugs on hours of sleep, used by Student (1908)
 ----------------------------------------------------------------------------------------------------------------
@@ -85,4 +84,3 @@ Examples
 
     error.bars(cushny[1:4],within=TRUE,ylab="Hours of sleep",xlab="Drug condition", 
            main="95% confidence of within subject effects")
-

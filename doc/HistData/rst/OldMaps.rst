@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| OldMaps                              |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------+-------------------+
+| OldMaps   | R Documentation   |
++-----------+-------------------+
 
 Latitudes and Longitudes of 39 Points in 11 Old Maps
 ----------------------------------------------------
@@ -85,4 +84,3 @@ Examples
     ## maybe str(OldMaps) ; plot(OldMaps) ...
 
     with(OldMaps, plot(abs(long),abs(lat), pch=col, col=colors()[point]))
-

@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| blot                                 |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------+-------------------+
+| blot   | R Documentation   |
++--------+-------------------+
 
 Bond's Logical Operations Test – BLOT
 -------------------------------------
@@ -82,4 +81,3 @@ Examples
     #do the same thing with functions in psych
     #blot.fa <- irt.fa(blot)  # a 2PN model
     #plot(blot.fa)
-

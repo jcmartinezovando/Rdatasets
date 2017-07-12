@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| solder                               |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------+-------------------+
+| solder   | R Documentation   |
++----------+-------------------+
 
 Soldering of Components on Printed-Circuit Boards
 -------------------------------------------------
@@ -62,4 +61,3 @@ Examples
                  data = solder, method = "anova")
     summary(residuals(fit))
     plot(predict(fit), residuals(fit))
-

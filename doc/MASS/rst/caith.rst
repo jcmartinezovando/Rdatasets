@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| caith                                |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------+-------------------+
+| caith   | R Documentation   |
++---------+-------------------+
 
 Colours of Eyes and Hair of People in Caithness
 -----------------------------------------------
@@ -50,4 +49,3 @@ Examples
     plot(corresp(caith, nf=2), type="rows"); title("rows")
     plot(corresp(caith, nf=2), type="col"); title("columns")
     par(mfrow=c(1,1))
-

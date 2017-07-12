@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| waders                               |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------+-------------------+
+| waders   | R Documentation   |
++----------+-------------------+
 
 Counts of Waders at 15 Sites in South Africa
 --------------------------------------------
@@ -84,20 +83,20 @@ This data frame contains the following columns (species)
 The rows are the sites:
 
 | A = Namibia North coast
-|  B = Namibia North wetland
-|  C = Namibia South coast
-|  D = Namibia South wetland
-|  E = Cape North coast
-|  F = Cape North wetland
-|  G = Cape West coast
-|  H = Cape West wetland
-|  I = Cape South coast
-|  J= Cape South wetland
-|  K = Cape East coast
-|  L = Cape East wetland
-|  M = Transkei coast
-|  N = Natal coast
-|  O = Natal wetland
+| B = Namibia North wetland
+| C = Namibia South coast
+| D = Namibia South wetland
+| E = Cape North coast
+| F = Cape North wetland
+| G = Cape West coast
+| H = Cape West wetland
+| I = Cape South coast
+| J= Cape South wetland
+| K = Cape East coast
+| L = Cape East wetland
+| M = Transkei coast
+| N = Natal coast
+| O = Natal wetland
 
 Source
 ~~~~~~
@@ -115,4 +114,3 @@ Examples
 ::
 
     plot(corresp(waders, nf=2))
-

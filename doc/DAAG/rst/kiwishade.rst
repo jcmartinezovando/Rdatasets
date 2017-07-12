@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| kiwishade                            |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------------+-------------------+
+| kiwishade   | R Documentation   |
++-------------+-------------------+
 
 Kiwi Shading Data
 -----------------
@@ -121,4 +120,3 @@ Examples
     qqmath(ploteff, xlab="Normal quantiles", ylab="Plot effect estimates",
            scales=list(tck=0.5))
     }
-

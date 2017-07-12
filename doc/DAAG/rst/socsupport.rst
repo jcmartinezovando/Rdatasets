@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| socsupport                           |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------------+-------------------+
+| socsupport   | R Documentation   |
++--------------+-------------------+
 
 Social Support Data
 -------------------
@@ -124,4 +123,3 @@ Examples
     pch=as.numeric(gender),  xlab ="1st principal component", ylab="BDI")
     topleft <- par()$usr[c(1,4)]
     legend(topleft[1], topleft[2], col=1:2, pch=1:2, legend=levels(gender))
-

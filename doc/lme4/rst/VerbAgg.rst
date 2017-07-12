@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| VerbAgg                              |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------+-------------------+
+| VerbAgg   | R Documentation   |
++-----------+-------------------+
 
 Verbal Aggression item responses
 --------------------------------
@@ -89,4 +88,3 @@ Examples
     print(fmVA0 <- glmer(r2 ~ (Anger + Gender + btype + situ)^2 +
                         (1|id) + (1|item), family = binomial, data =
                         VerbAgg, nAGQ=0L), corr=FALSE)
-

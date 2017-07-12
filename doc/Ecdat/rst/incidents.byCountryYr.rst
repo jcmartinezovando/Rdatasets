@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| terrorism                            |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------------+-------------------+
+| terrorism   | R Documentation   |
++-------------+-------------------+
 
 Global Terrorism Database yearly summaries
 ------------------------------------------
@@ -302,4 +301,3 @@ Examples
     ip <- paste(pch., names(maxDeaths[omax[1:8]]))
     legend('topleft', ip, cex=.55, 
            col=cols, text.col=cols)
-

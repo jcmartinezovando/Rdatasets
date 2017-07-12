@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| cuckoohosts                          |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------------+-------------------+
+| cuckoohosts   | R Documentation   |
++---------------+-------------------+
 
 Comparison of cuckoo eggs with host eggs
 ----------------------------------------
@@ -87,4 +86,3 @@ Examples
     plot(cuckoohosts)
     with(cuckoohosts,
          plot(c(clength,hlength),c(cbreadth,hbreadth),col=rep(1:2,c(6,6))))
-

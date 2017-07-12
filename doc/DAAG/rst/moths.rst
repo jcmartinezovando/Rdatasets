@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| moths                                |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------+-------------------+
+| moths   | R Documentation   |
++---------+-------------------+
 
 Moths Data
 ----------
@@ -63,4 +62,3 @@ Examples
     A2.glm <- glm(formula = A ~ sqrt(meters) + factor(habitat), family =
                       quasipoisson(link=sqrt), data = moths)
     summary(A2.glm)
-

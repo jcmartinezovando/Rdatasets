@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Gleser                               |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------+-------------------+
+| Gleser   | R Documentation   |
++----------+-------------------+
 
 Example data from Gleser, Cronbach and Rajaratnam (1965) to show basic principles of generalizability theory.
 -------------------------------------------------------------------------------------------------------------
@@ -103,4 +102,3 @@ Examples
     #now do the ANOVA
     anov <- aov(values ~ (Persons*Judges*Items),data=st.gc.df)
     summary(anov)
-

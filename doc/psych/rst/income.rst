@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| income                               |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------+-------------------+
+| income   | R Documentation   |
++----------+-------------------+
 
 US family income from US census 2008
 ------------------------------------
@@ -71,4 +70,3 @@ Examples
                     ylab="Proportion of families",xlim=c(0,250000)))
     with (all.income[1:50,], points(lowess(mean,prop,f=.25),typ="l"))
     #curve(100000* dlnorm(x, 10.8, .8), x = c(0,250000),ylab="Proportion")
-

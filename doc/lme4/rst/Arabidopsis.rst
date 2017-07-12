@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Arabidopsis                          |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------------+-------------------+
+| Arabidopsis   | R Documentation   |
++---------------+-------------------+
 
 Arabidopsis clipping/fertilization data
 ---------------------------------------
@@ -83,4 +82,3 @@ Examples
               ## see ?panel.xyplot
               scales=list(x=list(rot=90)),
               main="Panel: nutrient, Color: genotype")
-

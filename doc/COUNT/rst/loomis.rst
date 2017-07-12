@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| loomis                               |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------+-------------------+
+| loomis   | R Documentation   |
++----------+-------------------+
 
 loomis
 ------
@@ -92,4 +91,3 @@ Examples
     glmlmnb <- glm.nb(anvisits ~ gender + factor(income) + factor(travel), data=loomis)
     summary(glmlmnb)
     exp(coef(glmlmnb))
-

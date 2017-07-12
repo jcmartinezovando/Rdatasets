@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| uspop                                |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------+-------------------+
+| uspop   | R Documentation   |
++---------+-------------------+
 
 Populations Recorded by the US Census
 -------------------------------------
@@ -37,4 +36,3 @@ Examples
     require(graphics)
     plot(uspop, log = "y", main = "uspop data", xlab = "Year",
          ylab = "U.S. Population (millions)")
-

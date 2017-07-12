@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| WorldPhones                          |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------------+-------------------+
+| WorldPhones   | R Documentation   |
++---------------+-------------------+
 
 The World's Telephones
 ----------------------
@@ -50,4 +49,3 @@ Examples
     legend(1951.5, 80000, colnames(WorldPhones), col = 1:6, lty = 1:5,
            pch = rep(21, 7))
     title(main = "World phones data: log scale for response")
-

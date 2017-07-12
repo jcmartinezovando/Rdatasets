@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Bowley                               |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------+-------------------+
+| Bowley   | R Documentation   |
++----------+-------------------+
 
 Bowley's data on values of British and Irish trade, 1855-1899
 -------------------------------------------------------------
@@ -69,4 +68,3 @@ Examples
 
     require(ggplot2, warn.conflicts=FALSE)
     qplot(Year,Value, data=Bowley)+geom_smooth()
-

@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| primates                             |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++------------+-------------------+
+| primates   | R Documentation   |
++------------+-------------------+
 
 Primate Body and Brain Weights
 ------------------------------
@@ -52,4 +51,3 @@ Examples
     text(x=Bodywt+chw, y=Brainwt+c(-.1,0,0,.1,0)*chh,
            labels=row.names(primates), adj=0)
     detach(primates)
-

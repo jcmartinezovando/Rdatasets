@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| softbacks                            |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------------+-------------------+
+| softbacks   | R Documentation   |
++-------------+-------------------+
 
 Measurements on a Selection of Paperback Books
 ----------------------------------------------
@@ -44,4 +43,3 @@ Examples
     paperback.lm <- lm(weight ~ volume, data=softbacks)
     summary(paperback.lm)
     plot(paperback.lm)
-

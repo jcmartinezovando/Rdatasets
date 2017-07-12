@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Wheat                                |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------+-------------------+
+| Wheat   | R Documentation   |
++---------+-------------------+
 
 Playfair's Data on Wages and the Price of Wheat
 -----------------------------------------------
@@ -159,4 +158,3 @@ Examples
         segments(start, y, end, y, col=ifelse(commonwealth, "white", NA), lwd=4, lend=1)
         text((start+end)/2, y-0.2, name, cex=0.5)
         })
-

@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| occupationalStatus                   |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------------------+-------------------+
+| occupationalStatus   | R Documentation   |
++----------------------+-------------------+
 
 Occupational Status of Fathers and their Sons
 ---------------------------------------------
@@ -55,4 +54,3 @@ Examples
 
     summary(modUnif)
     plot(modUnif) # 4 plots, with warning about  h_ii ~= 1
-

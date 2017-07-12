@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| nassCDS                              |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------+-------------------+
+| nassCDS   | R Documentation   |
++-----------+-------------------+
 
 Airbag and other influences on accident fatalities
 --------------------------------------------------
@@ -141,4 +140,3 @@ Examples
     tab <- xtabs(weight ~ dead + abcat, data=nassCDS,
                  subset=dvcat=="25-39"&frontal==0)[, c(3,1,2)]
     round(tab[2, ]/apply(tab,2,sum)*100,2)
-

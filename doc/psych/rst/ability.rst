@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| ability                              |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------+-------------------+
+| ability   | R Documentation   |
++-----------+-------------------+
 
 16 ability items scored as correct or incorrect.
 ------------------------------------------------
@@ -129,4 +128,3 @@ Examples
     #not run
     # ability.irt <- irt.fa(ability)
     # ability.scores <- score.irt(ability.irt,ability)
-

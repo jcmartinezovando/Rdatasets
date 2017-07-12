@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| orings                               |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------+-------------------+
+| orings   | R Documentation   |
++----------+-------------------+
 
 Challenger O-rings Data
 -----------------------
@@ -59,4 +58,3 @@ Examples
                    # observations included in the pre-launch charts
     plot(Total~Temperature, data = orings)
     par(oldpar)
-

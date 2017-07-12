@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| CalciumBP                            |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------------+-------------------+
+| CalciumBP   | R Documentation   |
++-------------+-------------------+
 
 CalciumBP
 ---------
@@ -40,4 +39,4 @@ Source
 ~~~~~~
 
 | Dataset downloaded from online data source Data and Story Library,
-|  http://lib.stat.cmu.edu/DASL/Stories/CalciumandBloodPressure.html
+| http://lib.stat.cmu.edu/DASL/Stories/CalciumandBloodPressure.html

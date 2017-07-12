@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| friendship                           |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------------+-------------------+
+| friendship   | R Documentation   |
++--------------+-------------------+
 
 Simulated Example of Schoolchildren Friendship Network
 ------------------------------------------------------
@@ -45,4 +44,3 @@ Examples
     friendship <- format.network.data(friends, advice, prestige, authority, perpower, per)
 
     ## End(Not run)
-

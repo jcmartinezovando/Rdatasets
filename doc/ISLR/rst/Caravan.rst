@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Caravan                              |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------+-------------------+
+| Caravan   | R Documentation   |
++-----------+-------------------+
 
 The Insurance Company (TIC) Benchmark
 -------------------------------------
@@ -40,17 +39,18 @@ References
 ~~~~~~~~~~
 
 | P. van der Putten and M. van Someren (eds) . CoIL Challenge 2000: The
-Insurance Company Case. Published by Sentient Machine Research,
-Amsterdam. Also a Leiden Institute of Advanced Computer Science
-Technical Report 2000-09. June 22, 2000. See
-http://www.liacs.nl/~putten/library/cc2000/
-|  P. van der Putten and M. van Someren. A Bias-Variance Analysis of a
-Real World Learning Problem: The CoIL Challenge 2000. Machine Learning,
-October 2004, vol. 57, iss. 1-2, pp. 177-195, Kluwer Academic Publishers
-|  Games, G., Witten, D., Hastie, T., and Tibshirani, R. (2013) *An
-Introduction to Statistical Learning with applications in R*,
-`www.StatLearning.com <www.StatLearning.com>`__, Springer-Verlag, New
-York
+  Insurance Company Case. Published by Sentient Machine Research,
+  Amsterdam. Also a Leiden Institute of Advanced Computer Science
+  Technical Report 2000-09. June 22, 2000. See
+  http://www.liacs.nl/~putten/library/cc2000/
+| P. van der Putten and M. van Someren. A Bias-Variance Analysis of a
+  Real World Learning Problem: The CoIL Challenge 2000. Machine
+  Learning, October 2004, vol. 57, iss. 1-2, pp. 177-195, Kluwer
+  Academic Publishers
+| Games, G., Witten, D., Hastie, T., and Tibshirani, R. (2013) *An
+  Introduction to Statistical Learning with applications in R*,
+  `www.StatLearning.com <www.StatLearning.com>`__, Springer-Verlag, New
+  York
 
 Examples
 ~~~~~~~~
@@ -59,4 +59,3 @@ Examples
 
     summary(Caravan)
     plot(Caravan$Purchase)
-

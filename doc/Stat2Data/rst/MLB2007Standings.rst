@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| MLB2007Standings                     |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------------------+-------------------+
+| MLB2007Standings   | R Documentation   |
++--------------------+-------------------+
 
 MLB2007Standings
 ----------------
@@ -111,5 +110,5 @@ Source
 ~~~~~~
 
 | Data downloaded from baseball-reference.com:
-|  http://www.baseball-reference.com/leagues/MLB/2007-standings.shtml
-|  http://www.baseball-reference.com/leagues/MLB/2007.shtml
+| http://www.baseball-reference.com/leagues/MLB/2007-standings.shtml
+| http://www.baseball-reference.com/leagues/MLB/2007.shtml

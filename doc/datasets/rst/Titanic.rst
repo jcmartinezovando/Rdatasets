@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Titanic                              |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------+-------------------+
+| Titanic   | R Documentation   |
++-----------+-------------------+
 
 Survival of passengers on the Titanic
 -------------------------------------
@@ -26,11 +25,17 @@ Format
 A 4-dimensional array resulting from cross-tabulating 2201 observations
 on 4 variables. The variables and their levels are as follows:
 
-+--------------------------+--------------------------+--------------------------+
-| No                       | 1                        | 2                        |
-| Name                     | Class                    | Sex                      |
-| Levels                   | 1st, 2nd, 3rd, Crew      | Male, Female             |
-+--------------------------+--------------------------+--------------------------+
++------+------------+-----------------------+
+| No   | Name       | Levels                |
++------+------------+-----------------------+
+| 1    | Class      | 1st, 2nd, 3rd, Crew   |
++------+------------+-----------------------+
+| 2    | Sex        | Male, Female          |
++------+------------+-----------------------+
+| 3    | Age        | Child, Adult          |
++------+------------+-----------------------+
+| 4    | Survived   | No, Yes               |
++------+------------+-----------------------+
 
 Details
 ~~~~~~~
@@ -79,4 +84,3 @@ Examples
     ## Higher survival rates in females?
     apply(Titanic, c(2, 4), sum)
     ## Use loglm() in package 'MASS' for further analysis ...
-

@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| wages1833                            |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------------+-------------------+
+| wages1833   | R Documentation   |
++-------------+-------------------+
 
 Wages of Lancashire Cotton Factory Workers in 1833
 --------------------------------------------------
@@ -55,4 +54,3 @@ Examples
     points(fwage[fwage>0]~age[fwage>0],pch=15,col="red")
     lines(lowess(age,mwage))
     lines(lowess(age[fwage>0],fwage[fwage>0]),col="red")
-

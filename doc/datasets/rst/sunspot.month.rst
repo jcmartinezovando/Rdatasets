@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| sunspot.month                        |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------------+-------------------+
+| sunspot.month   | R Documentation   |
++-----------------+-------------------+
 
 Monthly Sunspot Data, from 1749 to "Present"
 --------------------------------------------
@@ -76,4 +75,3 @@ Examples
     ssm0 <- sunspot.month[1:2988]
     with(as.data.frame(.sunspot.diff), ssm0[i] <<- ssm0[i] - res10/10)
     sunspot.month.0 <- ts(ssm0, start = 1749, frequency = 12)
-

@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| progression                          |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------------+-------------------+
+| progression   | R Documentation   |
++---------------+-------------------+
 
 Progression of Record times for track races, 1912 - 2008
 --------------------------------------------------------
@@ -62,4 +61,3 @@ Examples
     res <- resid(lm(log(Time) ~ log(Distance), data=progression))
     plot(res ~ log(Distance), data=progression,
          ylab="Residuals from regression line on log scales")
-

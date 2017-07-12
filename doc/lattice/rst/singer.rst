@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| H\_singer                            |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------------+-------------------+
+| H\_singer   | R Documentation   |
++-------------+-------------------+
 
 Heights of New York Choral Society singers
 ------------------------------------------
@@ -30,9 +29,9 @@ height
     Height in inches of the singers.
 
 voice.part
-    (Unordered) factor with levels "``Bass 2``\ ", "``Bass 1``\ ",
-    "``Tenor 2``\ ", "``Tenor 1``\ ", "``Alto 2``\ ", "``Alto 1``\ ",
-    "``Soprano 2``\ ", "``Soprano 1``\ ".
+    (Unordered) factor with levels "``Bass 2``", "``Bass 1``",
+    "``Tenor 2``", "``Tenor 1``", "``Alto 2``", "``Alto 1``",
+    "``Soprano 2``", "``Soprano 1``".
 
 Author(s)
 ~~~~~~~~~
@@ -77,4 +76,3 @@ Examples
            },
            xlab = "Unit Normal Quantile",
            ylab="Height (inches)")
-

@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| bacteria                             |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++------------+-------------------+
+| bacteria   | R Documentation   |
++------------+-------------------+
 
 Presence of Bacteria after Drug Treatments
 ------------------------------------------
@@ -94,4 +93,3 @@ Examples
     library(nlme)
     summary(glmmPQL(y ~ trt + I(week > 2), random = ~ 1 | ID,
                     family = binomial, data = bacteria))
-

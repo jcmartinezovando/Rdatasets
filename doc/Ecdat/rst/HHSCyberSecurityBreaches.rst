@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| HHSCyberSecurityBreaches             |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------------------------+-------------------+
+| HHSCyberSecurityBreaches   | R Documentation   |
++----------------------------+-------------------+
 
 Cybersecurity breaches reported to the US Department of Health and Human Services
 ---------------------------------------------------------------------------------
@@ -143,4 +142,3 @@ Examples
     # all 8 levels together observed once 
     # There are 256 = 2^8 possible combinations 
     # of which 47 actually occur in these data.  
-

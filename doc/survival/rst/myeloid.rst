@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| myeloid                              |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------+-------------------+
+| myeloid   | R Documentation   |
++-----------+-------------------+
 
 Acute myeloid leukemia
 ----------------------
@@ -9,7 +8,7 @@ Acute myeloid leukemia
 Description
 ~~~~~~~~~~~
 
-This simulated data set is based on a trial in acute myleoid leukemia.
+This simulated data set is based on a trial in acute myeloid leukemia.
 
 Format
 ~~~~~~
@@ -52,4 +51,3 @@ Examples
 
     coxph(Surv(futime, death) ~ trt, data=myeloid)
     # See the mstate vignette for a more complete analysis
-

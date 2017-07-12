@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| nihills                              |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------+-------------------+
+| nihills   | R Documentation   |
++-----------+-------------------+
 
 Record times for Northern Ireland mountain running events
 ---------------------------------------------------------
@@ -56,4 +55,3 @@ Examples
     data(nihills)
     lm(formula = log(time) ~ log(dist) + log(climb), data = nihills)
     lm(formula = log(time) ~ log(dist) + log(climb/dist), data = nihills)
-

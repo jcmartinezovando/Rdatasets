@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| SAT                                  |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------+-------------------+
+| SAT   | R Documentation   |
++-------+-------------------+
 
 State by State SAT data
 -----------------------
@@ -68,4 +67,3 @@ Examples
       xyplot(sat ~ expend, SAT, 
            panel=function(x,y){grid.text(abbreviate(SAT$state, 3), x, y, default.units='native')})
     } 
-

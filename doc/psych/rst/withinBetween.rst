@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| withinBetween                        |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------------+-------------------+
+| withinBetween   | R Documentation   |
++-----------------+-------------------+
 
 An example of the distinction between within group and between group correlations
 ---------------------------------------------------------------------------------
@@ -114,4 +113,3 @@ Examples
          pch=21,ellipses=FALSE)
     stats <- statsBy(withinBetween,'Group')
     print(stats,short=FALSE)
-

@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| H\_environmental                     |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------------------+-------------------+
+| H\_environmental   | R Documentation   |
++--------------------+-------------------+
 
 Atmospheric environmental conditions in New York City
 -----------------------------------------------------
@@ -95,4 +94,3 @@ Examples
       xlab="Solar radiation (langleys)",
       ylab="Ozone (cube root ppb)")
     })
-

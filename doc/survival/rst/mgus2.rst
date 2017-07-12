@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| mgus2                                |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------+-------------------+
+| mgus2   | R Documentation   |
++---------+-------------------+
 
 Monoclonal gammapothy data
 --------------------------
@@ -47,13 +46,13 @@ A data frame with 1384 observations on the following 10 variables.
     contact, in months
 
 ``pstat``
-    occurence of PCM: 0=no, 1=yes
+    occurrence of PCM: 0=no, 1=yes
 
 ``futime``
     time until death or last contact, in months
 
 ``death``
-    occurence of death: 0=no, 1=yes
+    occurrence of death: 0=no, 1=yes
 
 Details
 ~~~~~~~

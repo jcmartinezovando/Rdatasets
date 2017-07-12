@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| faithful                             |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++------------+-------------------+
+| faithful   | R Documentation   |
++------------+-------------------+
 
 Old Faithful Geyser Data
 ------------------------
@@ -92,4 +91,3 @@ Examples
          ylab = "Waiting time to next eruption (min)")
     lines(lowess(faithful$eruptions, faithful$waiting, f = 2/3, iter = 3),
           col = "red")
-

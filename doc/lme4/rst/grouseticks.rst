@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| grouseticks                          |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------------+-------------------+
+| grouseticks   | R Documentation   |
++---------------+-------------------+
 
 Data on red grouse ticks from Elston et al. 2001
 ------------------------------------------------
@@ -97,4 +96,3 @@ Examples
     ## Model fitting
     form <- TICKS~YEAR+HEIGHT+(1|BROOD)+(1|INDEX)+(1|LOCATION)
     (full_mod1  <- glmer(form, family="poisson",data=grouseticks))
-

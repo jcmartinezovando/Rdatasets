@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| pulpfiber                            |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------------+-------------------+
+| pulpfiber   | R Documentation   |
++-------------+-------------------+
 
 Pulp Fiber and Paper Data
 -------------------------
@@ -97,4 +96,3 @@ Examples
     ## how different are they: The robust estimate has more clear high correlations:
     symnum(cov2cor(c1))
     symnum(cov2cor(cR$cov))
-

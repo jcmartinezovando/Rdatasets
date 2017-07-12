@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| ChestSizes                           |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------------+-------------------+
+| ChestSizes   | R Documentation   |
++--------------+-------------------+
 
 Chest measurements of 5738 Scottish Militiamen
 ----------------------------------------------
@@ -58,4 +57,3 @@ Examples
     plot(ChestSizes, type='b')
     #barplot
     barplot(ChestSizes[,2], ylab="Frequency", xlab="Chest size")
-

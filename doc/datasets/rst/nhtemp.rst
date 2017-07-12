@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| nhtemp                               |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------+-------------------+
+| nhtemp   | R Documentation   |
++----------+-------------------+
 
 Average Yearly Temperatures in New Haven
 ----------------------------------------
@@ -42,4 +41,3 @@ Examples
     require(stats); require(graphics)
     plot(nhtemp, main = "nhtemp data",
       ylab = "Mean annual temperature in New Haven, CT (deg. F)")
-

@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| WalkingBabies                        |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------------+-------------------+
+| WalkingBabies   | R Documentation   |
++-----------------+-------------------+
 
 WalkingBabies
 -------------
@@ -30,19 +29,19 @@ Details
 ~~~~~~~
 
 | Scientists wondered if they could get babies to walk sooner by
-prescribing a set of special exercises. Their experimental design
-included four groups of babies and the following treatments:
-|  Special exercises: Parents were shown the special exercises and
-encouraged to use them with their children. They were phoned weekly to
-check on their child's progress.
-|  Exercise control: These parents were not shown the special exercises,
-but they were told to make sure their babies spent at least 15 minutes a
-day exercising.
-|  Weekly report: Parents in this group were not given instructions
-about exercise. Like the parents in the treatment group, however, they
-received a phone call each week to check on progress.
-|  Final report: These parents were not given weekly phone calls or
-instructions about exercises. They reported at the end of the study.
+  prescribing a set of special exercises. Their experimental design
+  included four groups of babies and the following treatments:
+| Special exercises: Parents were shown the special exercises and
+  encouraged to use them with their children. They were phoned weekly to
+  check on their child's progress.
+| Exercise control: These parents were not shown the special exercises,
+  but they were told to make sure their babies spent at least 15 minutes
+  a day exercising.
+| Weekly report: Parents in this group were not given instructions about
+  exercise. Like the parents in the treatment group, however, they
+  received a phone call each week to check on progress.
+| Final report: These parents were not given weekly phone calls or
+  instructions about exercises. They reported at the end of the study.
 
 Source
 ~~~~~~

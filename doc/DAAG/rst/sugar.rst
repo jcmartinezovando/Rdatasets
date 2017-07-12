@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| sugar                                |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------+-------------------+
+| sugar   | R Documentation   |
++---------+-------------------+
 
 Sugar Data
 ----------
@@ -48,4 +47,3 @@ Examples
     summary.lm(sugar.aov)
     sugar.aov <- aov(formula = weight ~ trt, data = sugar)
     summary.lm(sugar.aov)
-

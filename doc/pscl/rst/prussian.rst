@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| prussian                             |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++------------+-------------------+
+| prussian   | R Documentation   |
++------------+-------------------+
 
 Prussian army horse kick data
 -----------------------------
@@ -46,4 +45,3 @@ Examples
     data(prussian)
     corpP <- glm(y ~ corp, family=poisson,data=prussian)
     summary(corpP)
-

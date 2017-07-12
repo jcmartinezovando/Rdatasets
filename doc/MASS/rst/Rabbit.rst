@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Rabbit                               |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------+-------------------+
+| Rabbit   | R Documentation   |
++----------+-------------------+
 
 Blood Pressure in Rabbits
 -------------------------
@@ -48,9 +47,9 @@ Source
 ~~~~~~
 
 | J. Ludbrook (1994) Repeated measurements and multiple comparisons in
-cardiovascular research. *Cardiovascular Research* **28**, 303–311.
-|  [The numerical data are not in the paper but were supplied by
-Professor Ludbrook]
+  cardiovascular research. *Cardiovascular Research* **28**, 303–311.
+| [The numerical data are not in the paper but were supplied by
+  Professor Ludbrook]
 
 References
 ~~~~~~~~~~

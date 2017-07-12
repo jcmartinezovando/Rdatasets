@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| rhDNase                              |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------+-------------------+
+| rhDNase   | R Documentation   |
++-----------+-------------------+
 
 rhDNASE data set
 ----------------
@@ -18,7 +17,7 @@ Format
 A data frame with 767 observations on the following 8 variables.
 
 ``id``
-    subeject id
+    subject id
 
 ``inst``
     enrolling institution
@@ -77,7 +76,7 @@ days after they end. (If the symptoms reappear immediately after
 cessation then from a medical standpoint this would not be a new
 infection.)
 
-This data set reproduces the data in Therneau and Grambsh, is does not
+This data set reproduces the data in Therneau and Grambsch, is does not
 exactly reproduce those in Therneau and Hamilton due to data set
 updates.
 
@@ -111,4 +110,3 @@ Examples
     dnase <- subset(dnase, (infect==1 | end==0), c(id:trt, fev:infect))
     agfit <- coxph(Surv(tstart, tstop, infect) ~ trt + fev + cluster(id),
                      data=dnase)
-

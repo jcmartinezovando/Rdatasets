@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| toxicity                             |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++------------+-------------------+
+| toxicity   | R Documentation   |
++------------+-------------------+
 
 Toxicity of Carboxylic Acids Data
 ---------------------------------
@@ -86,4 +85,3 @@ Examples
     csT <- covOGK(scTox, n.iter = 2,
                   sigmamu = s_Qn, weight.fn = hard.rejection)
     as.dist(round(cov2cor(csT$cov), 2))
-

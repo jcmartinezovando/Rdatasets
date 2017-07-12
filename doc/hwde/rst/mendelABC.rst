@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| mendelABC                            |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------------+-------------------+
+| mendelABC   | R Documentation   |
++-------------+-------------------+
 
 Mendel's F2 trifactorial data for seed shape (A: round or wrinkled), cotyledon color (B: albumen yellow or green), and seed coat color (C: grey-brown or white)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -77,4 +76,3 @@ Examples
     abc
     ## Fit Hardy-Weinberg disequilibium model
     hwde(mendelABC, loci=c("seedshape","cotylcolor","coatcolor"))
-

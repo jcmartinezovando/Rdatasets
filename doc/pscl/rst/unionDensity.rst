@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| unionDensity                         |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------------+-------------------+
+| unionDensity   | R Documentation   |
++----------------+-------------------+
 
 cross national rates of trade union density
 -------------------------------------------
@@ -91,4 +90,3 @@ Examples
     ols <- lm(union ~ left + size + concen,
               data=unionDensity)
     summary(ols)
-

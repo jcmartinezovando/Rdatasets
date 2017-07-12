@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| SiegelsEx                            |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------------+-------------------+
+| SiegelsEx   | R Documentation   |
++-------------+-------------------+
 
 Siegel's Exact Fit Example Data
 -------------------------------
@@ -52,4 +51,3 @@ Examples
     abline(          lm(y ~ x, data = SiegelsEx))
     abline(MASS::lqs(y ~ x, data = SiegelsEx, method = "lms"), col = 2)
     legend("topright", leg = c("lm", "LMS"), col=1:2, lwd=1, inset = 1/20)
-

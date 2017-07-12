@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| cbpp                                 |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------+-------------------+
+| cbpp   | R Documentation   |
++--------+-------------------+
 
 Contagious bovine pleuropneumonia
 ---------------------------------
@@ -72,4 +71,3 @@ Examples
     cbpp$obs <- 1:nrow(cbpp)
     (m2 <- glmer(cbind(incidence, size - incidence) ~ period + (1 | herd) +  (1|obs),
                   family = binomial, data = cbpp))
-

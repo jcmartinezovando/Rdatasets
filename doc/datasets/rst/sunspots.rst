@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| sunspots                             |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++------------+-------------------+
+| sunspots   | R Documentation   |
++------------+-------------------+
 
 Monthly Sunspot Numbers, 1749–1983
 ----------------------------------
@@ -47,4 +46,3 @@ Examples
     require(graphics)
     plot(sunspots, main = "sunspots data", xlab = "Year",
          ylab = "Monthly sunspot numbers")
-

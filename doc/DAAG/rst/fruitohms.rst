@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| fruitohms                            |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------------+-------------------+
+| fruitohms   | R Documentation   |
++-------------+-------------------+
 
 Electrical Resistance of Kiwi Fruit
 -----------------------------------
@@ -55,4 +54,3 @@ Examples
     ci <- predict(fruit.lmb4, interval="confidence")
     lines(juice[ord], ci[ord,"lwr"])
     lines(juice[ord], ci[ord,"upr"])
-

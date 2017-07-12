@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| respiratory                          |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------------+-------------------+
+| respiratory   | R Documentation   |
++---------------+-------------------+
 
 Data from a clinical trial comparing two treatments for a respiratory illness
 -----------------------------------------------------------------------------
@@ -55,4 +54,3 @@ Examples
 
     data(respiratory)
     ## maybe str(respiratory) ; plot(respiratory) ...
-

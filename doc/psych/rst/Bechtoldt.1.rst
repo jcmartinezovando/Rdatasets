@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Bechtoldt                            |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------------+-------------------+
+| Bechtoldt   | R Documentation   |
++-------------+-------------------+
 
 Seven data sets showing a bifactor solution.
 --------------------------------------------
@@ -117,8 +116,8 @@ Source
 ~~~~~~
 
 | Holzinger: Holzinger and Swineford (1937)
-|  Reise: Steve Reise (personal communication)
-|  sem help page (for Thurstone)
+| Reise: Steve Reise (personal communication)
+| sem help page (for Thurstone)
 
 References
 ~~~~~~~~~~
@@ -166,4 +165,3 @@ Examples
     thur.bf   <- fa(Thurstone,3,rotate="biquartimin")
     factor.congruence(thur.om,thur.bf)
     }
-

@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| leuk                                 |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------+-------------------+
+| leuk   | R Documentation   |
++--------+-------------------+
 
 Survival Times and White Blood Counts for Leukaemia Patients
 ------------------------------------------------------------
@@ -72,4 +71,3 @@ Examples
     # now Cox models
     leuk.cox <- coxph(Surv(time) ~ ag + log(wbc), leuk)
     summary(leuk.cox)
-

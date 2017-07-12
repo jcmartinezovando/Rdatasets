@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| BritishUnions                        |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------------+-------------------+
+| BritishUnions   | R Documentation   |
++-----------------+-------------------+
 
 BritishUnions
 -------------
@@ -56,5 +55,4 @@ Source
 ~~~~~~
 
 | Data from the Ipsos MORI website at
-| 
-http://www.ipsos-mori.com/researchpublications/researcharchive/poll.aspx?oItemID=94
+| http://www.ipsos-mori.com/researchpublications/researcharchive/poll.aspx?oItemID=94

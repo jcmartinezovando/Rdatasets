@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| mignonette                           |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------------+-------------------+
+| mignonette   | R Documentation   |
++--------------+-------------------+
 
 Darwin's Wild Mignonette Data
 -----------------------------
@@ -48,4 +47,3 @@ Examples
     plot(cross ~ self, pch=rep(c(4,1), c(3,12))); abline(0,1) 
     abline(mean(cross-self), 1, lty=2)
     detach(mignonette)
-

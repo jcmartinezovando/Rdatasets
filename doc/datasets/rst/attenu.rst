@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| attenu                               |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------+-------------------+
+| attenu   | R Documentation   |
++----------+-------------------+
 
 The Joyner–Boore Attenuation Data
 ---------------------------------
@@ -26,13 +25,17 @@ Format
 
 A data frame with 182 observations on 5 variables.
 
-+--------------------+--------------------+--------------------+--------------------+
-| [,1]               | [,2]               | [,3]               | [,4]               |
-| event              | mag                | station            | dist               |
-| numeric            | numeric            | factor             | numeric            |
-| Event Number       | Moment Magnitude   | Station Number     | Station-hypocenter |
-|                    |                    |                    | distance (km)      |
-+--------------------+--------------------+--------------------+--------------------+
++--------+-----------+-----------+------------------------------------+
+| [,1]   | event     | numeric   | Event Number                       |
++--------+-----------+-----------+------------------------------------+
+| [,2]   | mag       | numeric   | Moment Magnitude                   |
++--------+-----------+-----------+------------------------------------+
+| [,3]   | station   | factor    | Station Number                     |
++--------+-----------+-----------+------------------------------------+
+| [,4]   | dist      | numeric   | Station-hypocenter distance (km)   |
++--------+-----------+-----------+------------------------------------+
+| [,5]   | accel     | numeric   | Peak acceleration (g)              |
++--------+-----------+-----------+------------------------------------+
 
 Source
 ~~~~~~
@@ -77,4 +80,3 @@ Examples
     coplot(accel ~ dist | as.factor(event), data = attenu, show.given = FALSE)
     coplot(log(accel) ~ log(dist) | as.factor(event),
            data = attenu, panel = panel.smooth, show.given = FALSE)
-

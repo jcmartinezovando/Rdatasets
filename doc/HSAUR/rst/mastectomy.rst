@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| mastectomy                           |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------------+-------------------+
+| mastectomy   | R Documentation   |
++--------------+-------------------+
 
 Survival Times after Mastectomy of Breast Cancer Patients
 ---------------------------------------------------------
@@ -49,4 +48,3 @@ Examples
 
       data("mastectomy", package = "HSAUR")
       table(mastectomy$metastized)
-

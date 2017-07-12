@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| PlantGrowth                          |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------------+-------------------+
+| PlantGrowth   | R Documentation   |
++---------------+-------------------+
 
 Results from an Experiment on Plant Growth
 ------------------------------------------
@@ -25,11 +24,11 @@ Format
 
 A data frame of 30 cases on 2 variables.
 
-+--------------------------+--------------------------+--------------------------+
-| [, 1]                    | [, 2]                    |
-| weight                   | group                    |
-| numeric                  | factor                   |
-+--------------------------+--------------------------+--------------------------+
++---------+----------+-----------+
+| [, 1]   | weight   | numeric   |
++---------+----------+-----------+
+| [, 2]   | group    | factor    |
++---------+----------+-----------+
 
 The levels of ``group`` are ‘ctrl’, ‘trt1’, and ‘trt2’.
 
@@ -50,4 +49,3 @@ Examples
             ylab = "Dried weight of plants", col = "lightgray",
             notch = TRUE, varwidth = TRUE)
     anova(lm(weight ~ group, data = PlantGrowth))
-

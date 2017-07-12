@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| hotspots                             |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++------------+-------------------+
+| hotspots   | R Documentation   |
++------------+-------------------+
 
 Hawaian island chain hotspot Potassium-Argon ages
 -------------------------------------------------
@@ -64,4 +63,3 @@ Examples
     data(hotspots)
     plot(age ~ distance, data=hotspots)
     abline(lm(age ~ distance, data=hotspots))
-

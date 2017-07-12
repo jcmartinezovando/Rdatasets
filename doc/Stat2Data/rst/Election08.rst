@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Election08                           |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------------+-------------------+
+| Election08   | R Documentation   |
++--------------+-------------------+
 
 Election08
 ----------
@@ -55,10 +54,10 @@ Source
 ~~~~~~
 
 | State income data from: Census Bureau Table 659. Personal INcome Per
-Capita (in 2007)
-|  High school data from: U.S. Census Bureau, 1990 Census of Population,
-http://nces.ed.gov/programs/digest/d08/tables/dt08\_011.asp
-|  College data from: Census Bureau Table 225. Educational Attainment by
-State (in 2007)
-|  % Democrat and % Republican:
-http://www.gallup.com/poll/114016/state-states-political-party-affiliation.aspx#1
+  Capita (in 2007)
+| High school data from: U.S. Census Bureau, 1990 Census of Population,
+  http://nces.ed.gov/programs/digest/d08/tables/dt08\_011.asp
+| College data from: Census Bureau Table 225. Educational Attainment by
+  State (in 2007)
+| % Democrat and % Republican:
+  http://www.gallup.com/poll/114016/state-states-political-party-affiliation.aspx#1

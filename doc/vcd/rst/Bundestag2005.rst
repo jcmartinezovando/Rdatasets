@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Bundestag2005                        |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------------+-------------------+
+| Bundestag2005   | R Documentation   |
++-----------------+-------------------+
 
 Votes in German Bundestag Election 2005
 ---------------------------------------
@@ -25,13 +24,13 @@ Format
 A 2-way ``"table"`` giving the number of votes for each party
 (``Fraktion``) in each of the 16 German provinces (``Bundesland``):
 
-+--------------------------+--------------------------+--------------------------+
-| No                       | 1                        | 2                        |
-| Name                     | Bundesland               | Fraktion                 |
-| Levels                   | Schleswig-Holstein,      | SPD, CDU/CSU, Gruene,    |
-|                          | Mecklenburg-Vorpommern,  | FDP, Linke               |
-|                          | ...                      |                          |
-+--------------------------+--------------------------+--------------------------+
++------+--------------+---------------------------------------------------+
+| No   | Name         | Levels                                            |
++------+--------------+---------------------------------------------------+
+| 1    | Bundesland   | Schleswig-Holstein, Mecklenburg-Vorpommern, ...   |
++------+--------------+---------------------------------------------------+
+| 2    | Fraktion     | SPD, CDU/CSU, Gruene, FDP, Linke                  |
++------+--------------+---------------------------------------------------+
 
 Details
 ~~~~~~~
@@ -94,4 +93,3 @@ Examples
       just_labels = c("center","center","center","right"), varnames = FALSE),
       margins = unit(c(2.5, 1, 1, 12), "lines"),
       keep_aspect_ratio = FALSE)
-

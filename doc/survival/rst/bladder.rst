@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| bladder                              |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------+-------------------+
+| bladder   | R Documentation   |
++-----------+-------------------+
 
 Bladder Cancer Recurrences
 --------------------------
@@ -23,7 +22,7 @@ patient. The status variable is 1 for recurrence and 0 for everything
 else (including death for any reason). The data set is laid out in the
 competing risks format of the paper by Wei, Lin, and Weissfeld.
 
-Bladder2 uses the same subset of subjects as bladder, but formated in
+Bladder2 uses the same subset of subjects as bladder, but formatted in
 the (start, stop] or Anderson-Gill style. Note that in transforming from
 the WLW to the AG style data set there is a quite common programming
 mistake that leads to extra follow-up time for 12 subjects: all those

@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| hurricNamed                          |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------------+-------------------+
+| hurricNamed   | R Documentation   |
++---------------+-------------------+
 
 Named US Atlantic Hurricanes
 ----------------------------
@@ -104,4 +103,3 @@ Examples
     with(hurricNamed, lines(lowess(log(deaths+0.5) ~ log(NDAM2014))))
     plot(log(deaths+0.5) ~ I(NDAM2014^0.14), data=hurricNamed)
     with(hurricNamed, lines(lowess(log(deaths+0.1) ~ I(NDAM2014^0.14))))
-

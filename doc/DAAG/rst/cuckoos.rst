@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| cuckoos                              |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------+-------------------+
+| cuckoos   | R Documentation   |
++-----------+-------------------+
 
 Cuckoo Eggs Data
 ----------------
@@ -77,4 +76,3 @@ Examples
     median(wren)
     n <- length(wren)
     sqrt(pi/2)*sd(wren)/sqrt(n)  # this s.e. computation assumes normality
-

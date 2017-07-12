@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Puromycin                            |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------------+-------------------+
+| Puromycin   | R Documentation   |
++-------------+-------------------+
 
 Reaction Velocity of an Enzymatic Reaction
 ------------------------------------------
@@ -92,4 +91,3 @@ Examples
     fm3 <- nls(rate ~ conc/(K + conc), data = Puromycin,
                subset = state == "treated", start = c(K = 0.05),
                algorithm = "plinear")
-

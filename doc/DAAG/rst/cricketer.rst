@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| cricketer                            |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------------+-------------------+
+| cricketer   | R Documentation   |
++-------------+-------------------+
 
 Lifespans of UK 1st class cricketers born 1840-1960
 ---------------------------------------------------
@@ -102,4 +101,3 @@ Examples
     summary(coxph(Surv(life, kia) ~ bs(year,3) +left, data=cricketer))
     cricketer$notacdDead <- with(cricketer, {dead[acd==1]<-0; dead})
     summary(coxph(Surv(life, notacdDead) ~ ns(year,2) +left, data=cricketer))
-

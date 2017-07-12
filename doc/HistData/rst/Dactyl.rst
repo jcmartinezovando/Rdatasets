@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Dactyl                               |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------+-------------------+
+| Dactyl   | R Documentation   |
++----------+-------------------+
 
 Edgeworth's counts of dactyls in Virgil's Aeneid
 ------------------------------------------------
@@ -75,4 +74,3 @@ Examples
 
     # show table as a simple mosaicplot
     mosaicplot(xtabs(count ~ Foot+Lines, data=Dactyl), shade=TRUE)
-

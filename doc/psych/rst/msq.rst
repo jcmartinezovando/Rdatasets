@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| msq                                  |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------+-------------------+
+| msq   | R Documentation   |
++-------+-------------------+
 
 75 mood items from the Motivational State Questionnaire for 3896 participants
 -----------------------------------------------------------------------------
@@ -314,17 +313,17 @@ Details
 ~~~~~~~
 
 | The Motivational States Questionnaire (MSQ) is composed of 72 items,
-which represent the full affective range (Revelle & Anderson, 1998). The
-MSQ consists of 20 items taken from the Activation-Deactivation
-Adjective Check List (Thayer, 1986), 18 from the Positive and Negative
-Affect Schedule (PANAS, Watson, Clark, & Tellegen, 1988) along with the
-items used by Larsen and Diener (1992). The response format was a
-four-point scale that corresponds to Russell and Carroll's (1999)
-"ambiguous–likely-unipolar format" and that asks the respondents to
-indicate their current standing (“at this moment") with the following
-rating scale:
-|  0—————-1—————-2—————-3
-|  Not at all A little Moderately Very much
+  which represent the full affective range (Revelle & Anderson, 1998).
+  The MSQ consists of 20 items taken from the Activation-Deactivation
+  Adjective Check List (Thayer, 1986), 18 from the Positive and Negative
+  Affect Schedule (PANAS, Watson, Clark, & Tellegen, 1988) along with
+  the items used by Larsen and Diener (1992). The response format was a
+  four-point scale that corresponds to Russell and Carroll's (1999)
+  "ambiguous–likely-unipolar format" and that asks the respondents to
+  indicate their current standing (“at this moment") with the following
+  rating scale:
+| 0—————-1—————-2—————-3
+| Not at all A little Moderately Very much
 
 The original version of the MSQ included 72 items. Intermediate analyses
 (done with 1840 subjects) demonstrated a concentration of items in some

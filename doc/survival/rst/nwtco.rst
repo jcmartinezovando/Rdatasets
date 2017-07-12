@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| nwtco                                |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------+-------------------+
+| nwtco   | R Documentation   |
++---------+-------------------+
 
 Data from the National Wilm's Tumor Study
 -----------------------------------------
@@ -67,4 +66,3 @@ Examples
     with(nwtco, table(instit,histol))
     anova(coxph(Surv(edrel,rel)~histol+instit,data=nwtco))
     anova(coxph(Surv(edrel,rel)~instit+histol,data=nwtco))
-

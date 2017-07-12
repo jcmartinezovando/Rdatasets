@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| alcohol                              |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------+-------------------+
+| alcohol   | R Documentation   |
++-----------+-------------------+
 
 Alcohol Solubility in Water Data
 --------------------------------
@@ -69,4 +68,3 @@ Examples
     ## version of data set with trivial names, as
     s.alcohol <- alcohol
     names(s.alcohol) <- paste("Col", 1:7, sep='')
-

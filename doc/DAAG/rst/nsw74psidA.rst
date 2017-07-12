@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| nsw74psidA                           |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------------+-------------------+
+| nsw74psidA   | R Documentation   |
++--------------+-------------------+
 
 A Subset of the nsw74psid1 Data Set
 -----------------------------------
@@ -79,4 +78,3 @@ Examples
     overlap <- A.scores > -3.5 & A.scores < 3.8
     A.lm <- lm(re78 ~ trt + A.scores, data=nsw74psidA, subset = overlap)
     summary(A.lm)$coef
-

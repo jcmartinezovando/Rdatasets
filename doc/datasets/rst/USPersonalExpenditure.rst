@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| USPersonalExpenditure                |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------------------------+-------------------+
+| USPersonalExpenditure   | R Documentation   |
++-------------------------+-------------------+
 
 Personal Expenditure Data
 -------------------------
@@ -46,4 +45,3 @@ Examples
     require(stats) # for medpolish
     USPersonalExpenditure
     medpolish(log10(USPersonalExpenditure))
-

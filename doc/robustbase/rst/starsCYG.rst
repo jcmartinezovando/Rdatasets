@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| starsCYG                             |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++------------+-------------------+
+| starsCYG   | R Documentation   |
++------------+-------------------+
 
 Hertzsprung-Russell Diagram Data of Star Cluster CYG OB1
 --------------------------------------------------------
@@ -16,12 +15,12 @@ surface of the star (Te) and the second one is the logarithm of its
 light intencity (*L/L\_0*).
 
 | In the Hertzsprung-Russell diagram, which is the scatterplot of these
-data points, where the log temperature is plotted from left to right,
-two groups of points are seen:
-|  the majority which tend to follow a steep band and four stars in the
-upper corner. In the astronomy the 43 stars are said to lie on the main
-sequence and the four remaining stars are called “giants” (the points
-11, 20, 30, 34).
+  data points, where the log temperature is plotted from left to right,
+  two groups of points are seen:
+| the majority which tend to follow a steep band and four stars in the
+  upper corner. In the astronomy the 43 stars are said to lie on the
+  main sequence and the four remaining stars are called “giants” (the
+  points 11, 20, 30, 34).
 
 Usage
 ~~~~~
@@ -61,4 +60,3 @@ Examples
     plot(lm.stars)
     lts.stars <- ltsReg(log.light ~ log.Te, data = starsCYG)
     plot(lts.stars)
-

@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| nsw74psid3                           |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------------+-------------------+
+| nsw74psid3   | R Documentation   |
++--------------+-------------------+
 
 Labour Training Evaluation Data
 -------------------------------
@@ -83,4 +82,3 @@ Examples
     print("Contingency Tables - Example 4.4")
     table(nsw74psid3$trt, nsw74psid3$nodeg)
     chisq.test(table(nsw74psid3$trt,nsw74psid3$nodeg))
-

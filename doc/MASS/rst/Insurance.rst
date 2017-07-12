@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Insurance                            |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------------+-------------------+
+| Insurance   | R Documentation   |
++-------------+-------------------+
 
 Numbers of Car Insurance claims
 -------------------------------
@@ -72,4 +71,3 @@ Examples
     # same via loglm
     loglm(Claims ~ District + Group + Age + offset(log(Holders)),
           data = Insurance)
-

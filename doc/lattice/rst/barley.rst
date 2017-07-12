@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| H\_barley                            |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------------+-------------------+
+| H\_barley   | R Documentation   |
++-------------+-------------------+
 
 Yield data from a Minnesota barley trial
 ----------------------------------------
@@ -101,4 +100,3 @@ Examples
             key = simpleKey(levels(barley$year), space = "right"),
             xlab = "Barley Yield (bushels/acre) ",
             aspect=0.5, layout = c(1,6), ylab=NULL)
-

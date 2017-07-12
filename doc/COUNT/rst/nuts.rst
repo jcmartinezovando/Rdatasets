@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| nuts                                 |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------+-------------------+
+| nuts   | R Documentation   |
++--------+-------------------+
 
 nuts
 ----
@@ -86,4 +85,3 @@ Examples
     # sheigtht <- scale(nuts$height)
     # scover <- scale(nuts$cover)
     summary(PO <- glm(cones ~ sntrees + sheight + scover, family=quasipoisson, data=nut))
-

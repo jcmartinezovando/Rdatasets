@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| mifem                                |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------+-------------------+
+| mifem   | R Documentation   |
++---------+-------------------+
 
 Mortality Outcomes for Females Suffering Myocardial Infarction
 --------------------------------------------------------------
@@ -80,4 +79,3 @@ Examples
 
     mifemb.rpart <- prune(mifem.rpart, cp=0.006)
     print(mifemb.rpart)
-

@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| discoveries                          |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------------+-------------------+
+| discoveries   | R Documentation   |
++---------------+-------------------+
 
 Yearly Numbers of Important Discoveries
 ---------------------------------------
@@ -43,4 +42,3 @@ Examples
     plot(discoveries, ylab = "Number of important discoveries",
          las = 1)
     title(main = "discoveries data set")
-

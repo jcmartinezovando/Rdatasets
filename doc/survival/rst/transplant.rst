@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| transplant                           |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------------+-------------------+
+| transplant   | R Documentation   |
++--------------+-------------------+
 
 Liver transplant waiting list
 -----------------------------
@@ -92,4 +91,3 @@ Examples
     # competing risks for type O
     plot(pfit[4,], xscale=30.5, xmax=735, col=1:3, lwd=2)
     legend(450, .4, c("Death", "Transpant", "Withdrawal"), col=1:3, lwd=2)
-

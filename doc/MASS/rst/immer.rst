@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| immer                                |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------+-------------------+
+| immer   | R Documentation   |
++---------+-------------------+
 
 Yields from a Barley Field Trial
 --------------------------------
@@ -64,4 +63,3 @@ Examples
     immer.aov <- aov((Y1+Y2)/2 ~ Var + Loc, data = immer)
     summary(immer.aov)
     model.tables(immer.aov, type = "means", se = TRUE, cterms = "Var")
-

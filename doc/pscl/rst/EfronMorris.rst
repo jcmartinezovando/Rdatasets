@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| EfronMorris                          |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------------+-------------------+
+| EfronMorris   | R Documentation   |
++---------------+-------------------+
 
 Batting Averages for 18 major league baseball players, 1970
 -----------------------------------------------------------
@@ -63,4 +62,3 @@ Examples
          xlab="Batting Average, 1st 45 at bats",
          ylab="Batting Average, Remainder of Season")
     abline(0,1)
-

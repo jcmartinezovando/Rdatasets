@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Blood1                               |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------+-------------------+
+| Blood1   | R Documentation   |
++----------+-------------------+
 
 Blood1
 ------
@@ -38,6 +37,5 @@ Source
 ~~~~~~
 
 | Data are part of a larger case study for the 2003 Annual Meeting of
-the Statistical Society of Canada.
-| 
-http://www.ssc.ca/en/education/archived-case-studies/case-studies-for-the-2003-annual-meeting-blood-pressure.
+  the Statistical Society of Canada.
+| http://www.ssc.ca/en/education/archived-case-studies/case-studies-for-the-2003-annual-meeting-blood-pressure.

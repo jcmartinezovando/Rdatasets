@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Yeast                                |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------+-------------------+
+| Yeast   | R Documentation   |
++---------+-------------------+
 
 Student's (1906) Yeast Cell Counts
 ----------------------------------
@@ -96,4 +95,3 @@ Examples
     # same, using xyplot
     xyplot(freq~count|sample, data=Yeast, xlab="Number of Cells", ylab="Frequency",
         horizontal=FALSE, origin=0, type="h", lwd=10)
-

@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| appletaste                           |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------------+-------------------+
+| appletaste   | R Documentation   |
++--------------+-------------------+
 
 Tasting experiment that compared four apple varieties
 -----------------------------------------------------
@@ -48,4 +47,3 @@ Examples
     data(appletaste)
     appletaste.aov <- aov(aftertaste ~ panelist + product, data=appletaste)
     termplot(appletaste.aov)
-

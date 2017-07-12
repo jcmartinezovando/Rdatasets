@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| epil                                 |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------+-------------------+
+| epil   | R Documentation   |
++--------+-------------------+
 
 Seizure Counts for Epileptics
 -----------------------------
@@ -95,4 +94,3 @@ Examples
                     family = poisson, data = epil))
     summary(glmmPQL(y ~ pred, random = ~1 | subject,
                     family = poisson, data = epil3))
-

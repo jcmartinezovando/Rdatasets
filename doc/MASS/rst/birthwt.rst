@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| birthwt                              |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------+-------------------+
+| birthwt   | R Documentation   |
++-----------+-------------------+
 
 Risk Factors Associated with Low Infant Birth Weight
 ----------------------------------------------------
@@ -81,4 +80,3 @@ Examples
     })
     options(contrasts = c("contr.treatment", "contr.poly"))
     glm(low ~ ., binomial, bwt)
-

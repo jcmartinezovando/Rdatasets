@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| seizure                              |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------+-------------------+
+| seizure   | R Documentation   |
++-----------+-------------------+
 
 Epiliptic Seizures
 ------------------
@@ -101,4 +100,3 @@ Examples
                 data = seiz.l, corstr = "ar1", family = poisson,
                 zcor = z, cor.link = "fisherz", sca.link = "log")
     summary(m4)
-

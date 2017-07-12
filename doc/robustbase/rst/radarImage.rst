@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| radarImage                           |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------------+-------------------+
+| radarImage   | R Documentation   |
++--------------+-------------------+
 
 Satellite Radar Image Data from near Munich
 -------------------------------------------
@@ -81,4 +80,3 @@ Examples
     cc <- c(adjustcolor("black", 0.4), adjustcolor("tomato", 0.8))
     pairs(radarImage, main = "radarImage (n = 1573) + Outliers", gap=0,
           col = cc[1+isO], pch = c(1,8)[1+isO], cex = 0.8)
-

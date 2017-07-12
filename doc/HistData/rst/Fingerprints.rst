@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Fingerprints                         |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------------+-------------------+
+| Fingerprints   | R Documentation   |
++----------------+-------------------+
 
 Waite's data on Patterns in Fingerprints
 ----------------------------------------
@@ -77,4 +76,3 @@ Examples
 
     data(Fingerprints)
     xtabs(count ~ Whorls + Loops, data=Fingerprints)
-

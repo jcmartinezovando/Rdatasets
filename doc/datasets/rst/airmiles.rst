@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| airmiles                             |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++------------+-------------------+
+| airmiles   | R Documentation   |
++------------+-------------------+
 
 Passenger Miles on Commercial US Airlines, 1937–1960
 ----------------------------------------------------
@@ -43,4 +42,3 @@ Examples
     require(graphics)
     plot(airmiles, main = "airmiles data",
          xlab = "Passenger-miles flown by U.S. commercial airlines", col = 4)
-

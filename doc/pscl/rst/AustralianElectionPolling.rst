@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| AustralianElectionPolling            |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------------------------+-------------------+
+| AustralianElectionPolling   | R Documentation   |
++-----------------------------+-------------------+
 
 Political opinion polls in Australia, 2004-07
 ---------------------------------------------
@@ -130,4 +129,3 @@ Examples
               data=AustralianElectionPolling)
     m2 <- update(m1, ~ . + org)
     anova(m1,m2)
-

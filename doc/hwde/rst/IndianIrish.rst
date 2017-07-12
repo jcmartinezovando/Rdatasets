@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| IndianIrish                          |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------------+-------------------+
+| IndianIrish   | R Documentation   |
++---------------+-------------------+
 
 Observed genotype frequencies at MN and S loci, for 2 populations
 -----------------------------------------------------------------
@@ -46,11 +45,11 @@ References
 ~~~~~~~~~~
 
 | 1. Huttley, G.A. and Wilson, S.R. 2000. Testing for concordant
-equilibria between population samples. *Genetics* **156**, 2127-2135.
-|  2. Mourant, A.E., Kopec, A.C. and Domaniewska-Sobczak, K. 1976. *The
-Distribution of the Human Blood Groups and Other Polymorphisms.* Oxford
-University Press.
-|  3. Weir, B.S. 1996. *Genetic Data Analysis II.* Sinauer.
+  equilibria between population samples. *Genetics* **156**, 2127-2135.
+| 2. Mourant, A.E., Kopec, A.C. and Domaniewska-Sobczak, K. 1976. *The
+  Distribution of the Human Blood Groups and Other Polymorphisms.*
+  Oxford University Press.
+| 3. Weir, B.S. 1996. *Genetic Data Analysis II.* Sinauer.
 
 See Also
 ~~~~~~~~
@@ -64,4 +63,3 @@ Examples
 
     data(IndianIrish)
     hwde(data=IndianIrish)
-

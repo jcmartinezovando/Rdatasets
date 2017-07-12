@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Animals2                             |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++------------+-------------------+
+| Animals2   | R Documentation   |
++------------+-------------------+
 
 Brain and Body Weights for 65 Species of Land Animals
 -----------------------------------------------------
@@ -85,4 +84,3 @@ Examples
     mcd <- covMcd(lbrain)
     plot(mahalanobis(lbrain,mcd$center,mcd$cov),
          main = "Robust (MCD) Mahalanobis Distances")
-

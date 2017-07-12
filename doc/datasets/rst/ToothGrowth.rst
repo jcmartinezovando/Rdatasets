@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| ToothGrowth                          |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++---------------+-------------------+
+| ToothGrowth   | R Documentation   |
++---------------+-------------------+
 
 The Effect of Vitamin C on Tooth Growth in Guinea Pigs
 ------------------------------------------------------
@@ -27,13 +26,13 @@ Format
 
 A data frame with 60 observations on 3 variables.
 
-+--------------------+--------------------+--------------------+--------------------+
-| [,1]               | [,2]               | [,3]               |
-| len                | supp               | dose               |
-| numeric            | factor             | numeric            |
-| Tooth length       | Supplement type    | Dose in            |
-|                    | (VC or OJ).        | milligrams/day     |
-+--------------------+--------------------+--------------------+--------------------+
++--------+--------+-----------+-------------------------------+
+| [,1]   | len    | numeric   | Tooth length                  |
++--------+--------+-----------+-------------------------------+
+| [,2]   | supp   | factor    | Supplement type (VC or OJ).   |
++--------+--------+-----------+-------------------------------+
+| [,3]   | dose   | numeric   | Dose in milligrams/day        |
++--------+--------+-----------+-------------------------------+
 
 Source
 ~~~~~~
@@ -58,4 +57,3 @@ Examples
     require(graphics)
     coplot(len ~ dose | supp, data = ToothGrowth, panel = panel.smooth,
            xlab = "ToothGrowth data: length vs dose, given type of supplement")
-

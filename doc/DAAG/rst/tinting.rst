@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| tinting                              |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------+-------------------+
+| tinting   | R Documentation   |
++-----------+-------------------+
 
 Car Window Tinting Experiment Data
 ----------------------------------
@@ -94,4 +93,3 @@ Examples
       groups=tint, type=c("p","smooth"), span=0.8, col=1:3,
       key=list(x=0.14, y=0.84, points=list(pch=rep(1,2), col=1:3),
       text=list(levels(tinting$tint), col=1:3), border=TRUE))
-

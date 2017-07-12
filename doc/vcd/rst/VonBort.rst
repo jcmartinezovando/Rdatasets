@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| VonBort                              |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------+-------------------+
+| VonBort   | R Documentation   |
++-----------+-------------------+
 
 Von Bortkiewicz Horse Kicks Data
 --------------------------------
@@ -73,4 +72,3 @@ Examples
     data("VonBort")
     ## HorseKicks data
     xtabs(~ deaths, data = VonBort, subset = fisher == "yes")
-

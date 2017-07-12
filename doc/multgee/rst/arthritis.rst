@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| arthritis                            |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------------+-------------------+
+| arthritis   | R Documentation   |
++-------------+-------------------+
 
 Rheumatoid Arthritis Clinical Trial
 -----------------------------------
@@ -50,7 +49,7 @@ A data frame with 906 observations on the following 7 variables:
 Source
 ~~~~~~
 
-Lipsitz, S.R. and Kim, K. and Zhao, L. (1994). Analysis of repeated
+Lipsitz, S.R. and Kim, K. and Zhao, L. (1994) Analysis of repeated
 categorical data using generalized estimating equations. *Statistics in
 Medicine*, **13**, 1149–1163.
 
@@ -61,4 +60,3 @@ Examples
 
     data(arthritis)
     str(arthritis)
-

@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| litters                              |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------+-------------------+
+| litters   | R Documentation   |
++-----------+-------------------+
 
 Mouse Litters
 -------------
@@ -78,4 +77,3 @@ Examples
       ylab="Component + Residual")
     panel.smooth(litters$lsize, bz*litters$lsize+res)
     par(oldpar)
-

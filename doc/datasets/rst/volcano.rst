@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| volcano                              |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------+-------------------+
+| volcano   | R Documentation   |
++-----------+-------------------+
 
 Topographic Information on Auckland's Maunga Whau Volcano
 ---------------------------------------------------------
@@ -45,4 +44,3 @@ Examples
     require(grDevices); require(graphics)
     filled.contour(volcano, color.palette = terrain.colors, asp = 1)
     title(main = "volcano data: filled contour map")
-

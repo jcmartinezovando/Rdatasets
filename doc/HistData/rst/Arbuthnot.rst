@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Arbuthnot                            |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------------+-------------------+
+| Arbuthnot   | R Documentation   |
++-------------+-------------------+
 
 Arbuthnot's data on male and female birth ratios in London from 1629-1710.
 --------------------------------------------------------------------------
@@ -99,4 +98,3 @@ Examples
 
     # plot the total christenings to observe the anomalie in 1704
     with(Arbuthnot, plot(Year,Total, type='b', ylab="Total Christenings"))
-

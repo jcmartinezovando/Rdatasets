@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Harman.5                             |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++------------+-------------------+
+| Harman.5   | R Documentation   |
++------------+-------------------+
 
 5 socio-economic variables from Harman (1967)
 ---------------------------------------------
@@ -68,4 +67,3 @@ Examples
     pc2 <- principal(Harman.5,2,scores=TRUE)
     pc2$residual
     biplot(pc2,main="Biplot of the Harman 5 socio-demographic variables") }
-

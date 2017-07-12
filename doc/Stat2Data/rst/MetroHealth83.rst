@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| MetroHealth83                        |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------------+-------------------+
+| MetroHealth83   | R Documentation   |
++-----------------+-------------------+
 
 MetroHealth83
 -------------
@@ -92,5 +91,5 @@ Source
 ~~~~~~
 
 | U.S. Census Bureau: 2006 State and Metropolitan Area Data Book (Table
-B-6)
-|  http://www.census.gov/prod/2006pubs/smadb/smadb-06.pdf
+  B-6)
+| http://www.census.gov/prod/2006pubs/smadb/smadb-06.pdf

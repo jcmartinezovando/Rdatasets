@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Forbes2000                           |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------------+-------------------+
+| Forbes2000   | R Documentation   |
++--------------+-------------------+
 
 The Forbes 2000 Ranking of the World's Biggest Companies (Year 2004)
 --------------------------------------------------------------------
@@ -64,4 +63,3 @@ Examples
     length(levels(Forbes2000$country))
     ### number of industries
     length(levels(Forbes2000$category))
-

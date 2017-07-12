@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| USclassifiedDocuments                |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-------------------------+-------------------+
+| USclassifiedDocuments   | R Documentation   |
++-------------------------+-------------------+
 
 Official Secrecy of the United States Government
 ------------------------------------------------
@@ -102,4 +101,3 @@ Examples
     # lag 1 autocorrelation = (-0.52).  
     # However, with only 12 numbers, 
     # this is not statistically significant.  
-

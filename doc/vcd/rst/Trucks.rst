@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Trucks                               |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------+-------------------+
+| Trucks   | R Documentation   |
++----------+-------------------+
 
 Truck Accidents Data
 --------------------
@@ -68,4 +67,3 @@ Examples
     loglm(~ (collision + period) * parked * light, data = tab)
     doubledecker(collision ~ parked + light + period, data = tab)
     cotabplot(tab, panel = cotab_coindep)
-

@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| politicalInformation                 |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++------------------------+-------------------+
+| politicalInformation   | R Documentation   |
++------------------------+-------------------+
 
 Interviewer ratings of respondent levels of political information
 -----------------------------------------------------------------
@@ -82,4 +81,3 @@ Examples
                data=politicalInformation,
                Hess=TRUE,
                method="probit")
-

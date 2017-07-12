@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| allbacks                             |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++------------+-------------------+
+| allbacks   | R Documentation   |
++------------+-------------------+
 
 Measurements on a Selection of Books
 ------------------------------------
@@ -83,4 +82,3 @@ Examples
     print("Example 6.1.3")
     round(coef(allbacks.lm0),2)  # Baseline for changes
     round(lm.influence(allbacks.lm0)$coef,2)
-

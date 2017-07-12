@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| UCBAdmissions                        |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++-----------------+-------------------+
+| UCBAdmissions   | R Documentation   |
++-----------------+-------------------+
 
 Student Admissions at UC Berkeley
 ---------------------------------
@@ -25,11 +24,15 @@ Format
 A 3-dimensional array resulting from cross-tabulating 4526 observations
 on 3 variables. The variables and their levels are as follows:
 
-+--------------------------+--------------------------+--------------------------+
-| No                       | 1                        | 2                        |
-| Name                     | Admit                    | Gender                   |
-| Levels                   | Admitted, Rejected       | Male, Female             |
-+--------------------------+--------------------------+--------------------------+
++------+----------+----------------------+
+| No   | Name     | Levels               |
++------+----------+----------------------+
+| 1    | Admit    | Admitted, Rejected   |
++------+----------+----------------------+
+| 2    | Gender   | Male, Female         |
++------+----------+----------------------+
+| 3    | Dept     | A, B, C, D, E, F     |
++------+----------+----------------------+
 
 Details
 ~~~~~~~
@@ -75,4 +78,3 @@ Examples
     mtext(expression(bold("Student admissions at UC Berkeley")),
           outer = TRUE, cex = 1.5)
     par(opar)
-

@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| HairEyeColor                         |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------------+-------------------+
+| HairEyeColor   | R Documentation   |
++----------------+-------------------+
 
 Hair and Eye Color of Statistics Students
 -----------------------------------------
@@ -24,12 +23,15 @@ Format
 A 3-dimensional array resulting from cross-tabulating 592 observations
 on 3 variables. The variables and their levels are as follows:
 
-+--------------------------+--------------------------+--------------------------+
-| No                       | 1                        | 2                        |
-| Name                     | Hair                     | Eye                      |
-| Levels                   | Black, Brown, Red, Blond | Brown, Blue, Hazel,      |
-|                          |                          | Green                    |
-+--------------------------+--------------------------+--------------------------+
++------+--------+-----------------------------+
+| No   | Name   | Levels                      |
++------+--------+-----------------------------+
+| 1    | Hair   | Black, Brown, Red, Blond    |
++------+--------+-----------------------------+
+| 2    | Eye    | Brown, Blue, Hazel, Green   |
++------+--------+-----------------------------+
+| 3    | Sex    | Male, Female                |
++------+--------+-----------------------------+
 
 Details
 ~~~~~~~
@@ -86,4 +88,3 @@ Examples
     x <- apply(HairEyeColor, c(1, 2), sum)
     x
     mosaicplot(x, main = "Relation between hair and eye color")
-

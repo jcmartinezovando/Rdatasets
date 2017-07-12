@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| grog                                 |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------+-------------------+
+| grog   | R Documentation   |
++--------+-------------------+
 
 Alcohol consumption in Australia and New Zealand
 ------------------------------------------------
@@ -66,4 +65,3 @@ Examples
     library(lattice)
     xyplot(Beer+Wine+Spirit ~ Year | Country, data=grog)
     xyplot(Beer+Wine+Spirit ~ Year, groups=Country, data=grog, outer=TRUE)
-

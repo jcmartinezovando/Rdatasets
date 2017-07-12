@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| Schutz                               |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------+-------------------+
+| Schutz   | R Documentation   |
++----------+-------------------+
 
 The Schutz correlation matrix example from Shapiro and ten Berge
 ----------------------------------------------------------------
@@ -61,4 +60,3 @@ Examples
     #f4min <- fa(Schutz,4,fm="minrank")  #for an example of minimum rank factor Analysis
     #compare to
     #f4 <- fa(Schutz,4,fm="mle")  #for the maximum likelihood solution which has a Heywood case 
-

@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| ACF1                                 |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++--------+-------------------+
+| ACF1   | R Documentation   |
++--------+-------------------+
 
 Aberrant Crypt Foci in Rat Colons
 ---------------------------------
@@ -69,4 +68,3 @@ Examples
     ACF.glm <- glm(formula = count ~ endtime + I(endtime^2),
       family = quasipoisson, data = ACF1)
     summary(ACF.glm)
-

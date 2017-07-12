@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| breaches                             |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++------------+-------------------+
+| breaches   | R Documentation   |
++------------+-------------------+
 
 Cyber Security Breaches
 -----------------------
@@ -226,4 +225,3 @@ Examples
     quantile(dDays, na.rm=TRUE)
     # confirm that breach_end is NA or is later than 
     # breach_start 
-

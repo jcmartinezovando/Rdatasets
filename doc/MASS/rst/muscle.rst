@@ -1,7 +1,6 @@
-+--------------------------------------+--------------------------------------+
-| muscle                               |
-| R Documentation                      |
-+--------------------------------------+--------------------------------------+
++----------+-------------------+
+| muscle   | R Documentation   |
++----------+-------------------+
 
 Effect of Calcium Chloride on Muscle Contraction in Rat Hearts
 --------------------------------------------------------------
@@ -82,4 +81,3 @@ Examples
           panel.xyplot(x, Muscle$logLength[subscripts], ...)
           llines(spline(x, y))
        })
-
