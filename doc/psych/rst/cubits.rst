@@ -94,4 +94,3 @@ Examples
          main="Galton's co-relation data set",xlab="height",
          ylab="Forearm (cubit)") #add in some noise to see the points
     pairs.panels(heights,jiggle=TRUE,main="Galton's cubits data set")
-

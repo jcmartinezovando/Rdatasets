@@ -50,4 +50,3 @@ Examples
     wtloss.fm
     plot(wtloss)
     with(wtloss, lines(Days, fitted(wtloss.fm)))
-

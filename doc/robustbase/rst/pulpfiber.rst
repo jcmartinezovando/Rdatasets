@@ -73,7 +73,7 @@ Source
 Rousseeuw, P. J., Van Aelst, S., Van Driessen, K., and Agulló, J. (2004)
 Robust multivariate regression; *Technometrics* **46**, 293–305.
 
-`http://allserv.ugent.be/~svaelst/data/pulpfiber.txt <http://allserv.ugent.be/~svaelst/data/pulpfiber.txt>`__
+http://users.ugent.be/~svaelst/data/pulpfiber.txt
 
 References
 ~~~~~~~~~~
@@ -96,4 +96,3 @@ Examples
     ## how different are they: The robust estimate has more clear high correlations:
     symnum(cov2cor(c1))
     symnum(cov2cor(cR$cov))
-

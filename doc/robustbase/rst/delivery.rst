@@ -56,4 +56,3 @@ Examples
     delivery.x <- as.matrix(delivery[, 1:2])
     c_deli <- covMcd(delivery.x)
     c_deli
-

@@ -48,4 +48,3 @@ Examples
     require(stats); require(graphics)
     plot(presidents, las = 1, ylab = "Approval rating (%)",
          main = "presidents data")
-

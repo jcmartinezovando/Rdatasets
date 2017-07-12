@@ -48,4 +48,3 @@ Examples
 
     ## Plot similar to Figure 6 in Stryuf et al (1996)
     plot(fanny(ruspini, 5))
-

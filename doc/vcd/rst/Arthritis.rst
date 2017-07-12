@@ -42,7 +42,7 @@ Source
 ~~~~~~
 
 Michael Friendly (2000), Visualizing Categorical Data:
-`http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/arthrit.sas <http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/arthrit.sas>`__
+http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/arthrit.sas
 
 References
 ~~~~~~~~~~
@@ -65,4 +65,3 @@ Examples
 
     mosaic(art, gp = shading_Friendly)
     mosaic(art, gp = shading_max)
-

@@ -68,4 +68,3 @@ Examples
 
     require(ggplot2, warn.conflicts=FALSE)
     qplot(Year,Value, data=Bowley)+geom_smooth()
-

@@ -55,4 +55,3 @@ Examples
 
     data("BrokenMarriage")
     structable(~ ., data = BrokenMarriage)
-

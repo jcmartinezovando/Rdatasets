@@ -58,8 +58,7 @@ rooms
 References
 ~~~~~~~~~~
 
-Kenneth Train's home page :
-`http://elsa.berkeley.edu/~train/ <http://elsa.berkeley.edu/~train/>`__.
+Kenneth Train's home page : http://elsa.berkeley.edu/~train/.
 
 See Also
 ~~~~~~~~

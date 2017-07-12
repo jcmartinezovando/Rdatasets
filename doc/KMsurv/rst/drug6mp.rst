@@ -43,4 +43,3 @@ Examples
 ::
 
     data(drug6mp)
-

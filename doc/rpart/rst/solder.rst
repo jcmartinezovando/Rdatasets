@@ -61,4 +61,3 @@ Examples
                  data = solder, method = "anova")
     summary(residuals(fit))
     plot(predict(fit), residuals(fit))
-

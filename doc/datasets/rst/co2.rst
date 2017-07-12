@@ -37,7 +37,7 @@ Source
 Keeling, C. D. and Whorf, T. P., Scripps Institution of Oceanography
 (SIO), University of California, La Jolla, California USA 92093-0220.
 
-`ftp://cdiac.esd.ornl.gov/pub/maunaloa-co2/maunaloa.co2 <ftp://cdiac.esd.ornl.gov/pub/maunaloa-co2/maunaloa.co2>`__.
+ftp://cdiac.esd.ornl.gov/pub/maunaloa-co2/maunaloa.co2.
 
 References
 ~~~~~~~~~~
@@ -53,4 +53,3 @@ Examples
     plot(co2, ylab = expression("Atmospheric concentration of CO"[2]),
          las = 1)
     title(main = "co2 data set")
-

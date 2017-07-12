@@ -54,4 +54,3 @@ Examples
 
     data(respiratory)
     ## maybe str(respiratory) ; plot(respiratory) ...
-

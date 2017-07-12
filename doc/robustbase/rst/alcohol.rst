@@ -51,7 +51,7 @@ Source
 ~~~~~~
 
 The website accompanying the MMY-book:
-`http://www.wiley.com/legacy/wileychi/robust\_statistics <http://www.wiley.com/legacy/wileychi/robust_statistics>`__
+http://www.wiley.com/legacy/wileychi/robust_statistics
 
 References
 ~~~~~~~~~~
@@ -68,4 +68,3 @@ Examples
     ## version of data set with trivial names, as
     s.alcohol <- alcohol
     names(s.alcohol) <- paste("Col", 1:7, sep='')
-

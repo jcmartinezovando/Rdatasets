@@ -85,4 +85,3 @@ Examples
     }
 
     ternary(Skye/100, ord=c(1,3,2))
-

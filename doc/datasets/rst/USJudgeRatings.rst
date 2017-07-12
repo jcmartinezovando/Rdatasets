@@ -60,4 +60,3 @@ Examples
 
     require(graphics)
     pairs(USJudgeRatings, main = "USJudgeRatings data")
-

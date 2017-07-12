@@ -64,4 +64,3 @@ Examples
 
     require(survival)
     rpart(Surv(pgtime, pgstat) ~ ., stagec)
-

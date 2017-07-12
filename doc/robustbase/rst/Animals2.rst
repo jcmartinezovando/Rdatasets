@@ -84,4 +84,3 @@ Examples
     mcd <- covMcd(lbrain)
     plot(mahalanobis(lbrain,mcd$center,mcd$cov),
          main = "Robust (MCD) Mahalanobis Distances")
-

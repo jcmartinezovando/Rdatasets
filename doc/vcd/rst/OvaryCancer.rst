@@ -75,4 +75,3 @@ Examples
     mosaic(~ stage + operation + xray + survival,
       split = c(FALSE, TRUE, TRUE, FALSE), data = tab, keep = FALSE,
       expected = ~ xray * operation * stage + survival*stage)
-

@@ -60,4 +60,3 @@ Examples
 
     data(Prostitutes)
     ## maybe str(Prostitutes) ; plot(Prostitutes) ...
-

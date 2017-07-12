@@ -53,4 +53,3 @@ Examples
     wood.x <- as.matrix(wood)[,1:5]
     c_wood <- covMcd(wood.x)
     c_wood
-

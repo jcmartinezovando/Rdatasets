@@ -69,4 +69,3 @@ Examples
     glmaznb <- glm.nb(los ~ type1 + gender + age75, data=azdrg112)
     summary(glmaznb)
     exp(coef(glmaznb))
-

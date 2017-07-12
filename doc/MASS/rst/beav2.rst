@@ -86,4 +86,3 @@ Examples
     summary(beav2.gls)
     summary(update(beav2.gls, subset = 6:100))
     detach("beav2"); rm(temp, activ)
-

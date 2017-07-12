@@ -74,4 +74,3 @@ Examples
     pet3.lme <- update(pet3.lme, method = "ML")
     pet4.lme <- update(pet3.lme, fixed = Y ~ V10 + EP)
     anova(pet4.lme, pet3.lme)
-

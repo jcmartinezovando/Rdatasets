@@ -80,4 +80,3 @@ Examples
     })
     options(contrasts = c("contr.treatment", "contr.poly"))
     glm(low ~ ., binomial, bwt)
-

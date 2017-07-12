@@ -46,7 +46,7 @@ Source
 ~~~~~~
 
 Michael Friendly (2000), Visualizing Categorical Data:
-`http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/suicide.sas <http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/suicide.sas>`__
+http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/suicide.sas
 
 References
 ~~~~~~~~~~
@@ -64,4 +64,3 @@ Examples
 
     data("Suicide")
     structable(~ sex + method2 + age.group, data = Suicide)
-

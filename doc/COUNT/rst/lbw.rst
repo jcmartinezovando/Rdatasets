@@ -86,4 +86,3 @@ Examples
     glmbwnb <- glm.nb(ftv ~ low + smoke + factor(race), data=lbw)
     summary(glmbwnb)
     exp(coef(glmbwnb))
-

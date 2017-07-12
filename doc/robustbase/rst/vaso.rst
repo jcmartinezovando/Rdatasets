@@ -82,4 +82,3 @@ Examples
     glmV <- glm(Y ~ log(Volume) + log(Rate), family=binomial, data=vaso)
     summary(glmV)
     ## -->  example(glmrob)  showing classical & robust GLM
-

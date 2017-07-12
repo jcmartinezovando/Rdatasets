@@ -69,4 +69,3 @@ Examples
                   xlab = "Husband's Rating",
                   ylab = "Wife's Rating",
                   main = "Husband's and Wife's Sexual Fun")
-

@@ -67,4 +67,3 @@ Examples
 
     hbk.x <- data.matrix(hbk[, 1:3])
     (cHBK <- covMcd(hbk.x))
-

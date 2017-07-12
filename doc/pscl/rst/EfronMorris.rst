@@ -62,4 +62,3 @@ Examples
          xlab="Batting Average, 1st 45 at bats",
          ylab="Batting Average, Remainder of Season")
     abline(0,1)
-

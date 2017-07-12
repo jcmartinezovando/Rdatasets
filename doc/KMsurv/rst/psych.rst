@@ -39,4 +39,3 @@ Examples
 ::
 
     data(psych)
-

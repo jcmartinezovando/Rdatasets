@@ -62,4 +62,3 @@ Examples
     plot(cbind(ap, tsSmooth(fit)), plot.type = "single")
 
     ## End(Not run)
-

@@ -71,4 +71,3 @@ Examples
     ## use maximum sum-of-squares test/shading
     cotabplot(~ memory + attitude | age + education, data = pun, panel = cotab_coindep,
       n = 5000, type = "assoc", test = "maxchisq", interpolate = 1:2)
-

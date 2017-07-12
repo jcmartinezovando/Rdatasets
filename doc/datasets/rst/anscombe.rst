@@ -77,4 +77,3 @@ Examples
     }
     mtext("Anscombe's 4 Regression data sets", outer = TRUE, cex = 1.5)
     par(op)
-

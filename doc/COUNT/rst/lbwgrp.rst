@@ -79,4 +79,3 @@ Examples
     glmgnb <- glm.nb(lowbw ~  smoke + race2 + race3, data=lbwgrp)
     summary(glmgnb)
     exp(coef(glmgnb))
-

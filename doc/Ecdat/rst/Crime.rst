@@ -44,7 +44,7 @@ prbconv
     'probability' of conviction
 
 prbpris
-    'probability' of prison sentenc
+    'probability' of prison sentence
 
 avgsen
     average sentence, days
@@ -86,7 +86,7 @@ wmfg
     weekly wage in manufacturing
 
 wfed
-    weekly wage of federal emplyees
+    weekly wage of federal employees
 
 wsta
     weekly wage of state employees
@@ -115,12 +115,10 @@ References
 ~~~~~~~~~~
 
 Baltagi, Badi H. (2003) *Econometric analysis of panel data*, John Wiley
-and sons,
-`http://www.wiley.com/legacy/wileychi/baltagi/ <http://www.wiley.com/legacy/wileychi/baltagi/>`__,
-.
+and sons, http://www.wiley.com/legacy/wileychi/baltagi/, .
 
 Journal of Applied Econometrics data archive :
-`http://jae.wiley.com/jae/ <http://jae.wiley.com/jae/>`__.
+http://qed.econ.queensu.ca/jae/.
 
 See Also
 ~~~~~~~~

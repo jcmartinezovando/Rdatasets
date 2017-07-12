@@ -58,4 +58,3 @@ Examples
     aircraft.x <- data.matrix(aircraft[,1:4])
     c_air <- covMcd(aircraft.x)
     c_air
-

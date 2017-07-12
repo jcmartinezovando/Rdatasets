@@ -81,4 +81,3 @@ Examples
     #glmaznb < -glm.nb(los ~ procedure + sex + admit, data=azpro)
     #summary(glmaznb)
     #exp(coef(glmaznb))
-

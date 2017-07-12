@@ -69,4 +69,3 @@ Examples
     covMcd(heart.x)
     summary( lm.heart <-     lm(clength ~ . , data = heart))
     summary(lts.heart <- ltsReg(clength ~ . , data = heart))
-

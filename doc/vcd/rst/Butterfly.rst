@@ -58,4 +58,3 @@ Examples
 
     data("Butterfly")
     Ord_plot(Butterfly)
-

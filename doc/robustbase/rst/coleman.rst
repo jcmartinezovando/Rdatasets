@@ -70,4 +70,3 @@ Examples
 
     coleman.x <- data.matrix(coleman[, 1:6])
     (Cc <- covMcd(coleman.x))
-

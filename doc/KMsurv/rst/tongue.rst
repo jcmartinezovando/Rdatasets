@@ -37,4 +37,3 @@ Examples
 ::
 
     data(tongue)
-

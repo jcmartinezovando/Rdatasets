@@ -38,8 +38,7 @@ package with the same name.
 
 The S-PLUS 6.2 help for the melanoma data says that the incidence rate
 is per *million*, but this is not consistent with data found at the
-National Cancer Institute
-(`http://www.nci.nih.gov <http://www.nci.nih.gov>`__).
+National Cancer Institute (http://www.nci.nih.gov).
 
 Author(s)
 ~~~~~~~~~
@@ -73,4 +72,3 @@ Examples
         ylim = c(0, 6),
         xlab = "Year",
         ylab = "Incidence")
-

@@ -107,4 +107,3 @@ Examples
     par(op)
 
     # TODO: plot fitted model
-

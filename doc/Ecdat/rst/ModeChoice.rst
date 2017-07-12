@@ -35,10 +35,10 @@ ttme
     terminal waiting cost time, 0 for car
 
 invc
-    in vehicule cost-cost component
+    in vehicle cost-cost component
 
 invt
-    travel time in vehicule
+    travel time in vehicle
 
 gc
     generalized cost measure
@@ -52,16 +52,15 @@ psize
 Source
 ~~~~~~
 
-Greene, W.H. and D. Hensher (1997) *Multinomial logit and discret choice
-models* *in* Greene, W. H. (1997) *LIMDEP version 7.0 user's manual
-revised*, Plainview, New York econometric software, Inc .
+Greene, W.H. and D. Hensher (1997) *Multinomial logit and discrete
+choice models* *in* Greene, W. H. (1997) *LIMDEP version 7.0 user's
+manual revised*, Plainview, New York econometric software, Inc .
 
 References
 ~~~~~~~~~~
 
 Greene, W.H. (2003) *Econometric Analysis*, Prentice Hall,
-`http://www.prenhall.com/greene/greene1.html <http://www.prenhall.com/greene/greene1.html>`__,
-Table F21.2.
+http://www.prenhall.com/greene/greene1.html, Table F21.2.
 
 See Also
 ~~~~~~~~

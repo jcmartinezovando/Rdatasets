@@ -103,4 +103,3 @@ Examples
     glmmdnb <- glm.nb(numvisit ~ reform + factor(educ) + factor(agegrp), data=mdvis)
     summary(glmmdnb)
     exp(coef(glmmdnb))
-

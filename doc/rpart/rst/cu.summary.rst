@@ -64,4 +64,3 @@ Examples
     par(xpd = TRUE)
     plot(fit, compress = TRUE)
     text(fit, use.n = TRUE)
-

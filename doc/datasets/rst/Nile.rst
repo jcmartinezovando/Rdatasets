@@ -8,7 +8,9 @@ Flow of the River Nile
 Description
 ~~~~~~~~~~~
 
-Measurements of the annual flow of the river Nile at Ashwan 1871–1970.
+Measurements of the annual flow of the river Nile at Aswan (formerly
+``Assuan``), 1871–1970, in *10^8 m^3*, “with apparent changepoint near
+1898” (Cobb(1978), Table 1, p.249).
 
 Usage
 ~~~~~
@@ -27,7 +29,7 @@ Source
 
 Durbin, J. and Koopman, S. J. (2001) *Time Series Analysis by State
 Space Methods.* Oxford University Press.
-`http://www.ssfpack.com/DKbook.html <http://www.ssfpack.com/DKbook.html>`__
+http://www.ssfpack.com/DKbook.html
 
 References
 ~~~~~~~~~~
@@ -90,4 +92,3 @@ Examples
     lines(fitted(fit3), lty = 2)
     lines(tsSmooth(fit3), lty = 3)
     plot(residuals(fit3)); abline(h = 0, lty = 3)
-

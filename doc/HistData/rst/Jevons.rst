@@ -65,8 +65,7 @@ References
 
 Miller, G. A. (1956). The Magical Number Seven, Plus or Minus Two: Some
 Limits on Our Capacity for Processing Information, *Psychological
-Review*, 63, 81-97,
-`http://www.musanim.com/miller1956/ <http://www.musanim.com/miller1956/>`__
+Review*, 63, 81-97, http://www.musanim.com/miller1956/
 
 Examples
 ~~~~~~~~

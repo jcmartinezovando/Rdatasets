@@ -38,8 +38,7 @@ See Also
 For *monthly* sunspot numbers, see ``sunspot.month`` and ``sunspots``.
 
 Regularly updated yearly sunspot numbers are available from WDC-SILSO,
-Royal Observatory of Belgium, at
-`http://www.sidc.be/silso/datafiles <http://www.sidc.be/silso/datafiles>`__
+Royal Observatory of Belgium, at http://www.sidc.be/silso/datafiles
 
 Examples
 ~~~~~~~~
@@ -61,4 +60,3 @@ Examples
     ndays <- c(31, 28.25, rep(c(31,30, 31,30, 31), 2))
     all.equal(s.y, aggregate(s.m, FUN = mean))                     # 0.0013
     all.equal(s.y, aggregate(s.m, FUN = weighted.mean, w = ndays)) # 0.0017
-

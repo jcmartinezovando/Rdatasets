@@ -80,8 +80,7 @@ Pre-/Post-Election Study*. Center for Political Studies, University of
 Michigan: Ann Arbor, Michigan.
 
 Inter-University Consortium for Political and Social Research. Study
-Number 1112.
-`http://dx.doi.org/10.3886/ICPSR01112 <http://dx.doi.org/10.3886/ICPSR01112>`__.
+Number 1112. http://dx.doi.org/10.3886/ICPSR01112.
 
 References
 ~~~~~~~~~~
@@ -96,4 +95,3 @@ Examples
 
     data(vote92)
     summary(vote92)
-

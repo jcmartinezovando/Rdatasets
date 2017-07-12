@@ -73,4 +73,3 @@ Examples
     data(CrohnD)
     str(CrohnD)
     with(CrohnD, ftable(table(sex,country, treat)))
-

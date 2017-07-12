@@ -61,4 +61,3 @@ Examples
 
     data("DanishWelfare")
     ftable(xtabs(Freq ~ ., data = DanishWelfare))
-

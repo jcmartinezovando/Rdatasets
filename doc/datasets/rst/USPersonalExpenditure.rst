@@ -45,4 +45,3 @@ Examples
     require(stats) # for medpolish
     USPersonalExpenditure
     medpolish(log10(USPersonalExpenditure))
-

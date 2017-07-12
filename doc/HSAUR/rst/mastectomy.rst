@@ -48,4 +48,3 @@ Examples
 
       data("mastectomy", package = "HSAUR")
       table(mastectomy$metastized)
-

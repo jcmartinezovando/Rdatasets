@@ -58,4 +58,3 @@ Examples
 
     require(graphics)
     pairs(USArrests, panel = panel.smooth, main = "USArrests data")
-

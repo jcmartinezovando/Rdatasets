@@ -82,4 +82,3 @@ Examples
     points(x[others],y[others], col="black",cex = .75)
     fit <- rqss(y ~ qss(x, lambda = 1),tau = .9)
     plot(fit)
-

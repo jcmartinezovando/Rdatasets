@@ -71,4 +71,3 @@ Examples
           main = "LifeCycleSavings data")
     fm1 <- lm(sr ~ pop15 + pop75 + dpi + ddpi, data = LifeCycleSavings)
     summary(fm1)
-

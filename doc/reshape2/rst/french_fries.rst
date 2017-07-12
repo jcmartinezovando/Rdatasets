@@ -18,7 +18,7 @@ Usage
 
 ::
 
-    data(french_fries)
+    french_fries
 
 Format
 ~~~~~~
@@ -47,5 +47,3 @@ Variables:
 -  rancid flavour,
 
 -  painty flavour
-
-

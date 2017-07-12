@@ -46,4 +46,3 @@ Examples
     abline(h = -0.5, col = "grey60")
 
     monthplot(fit)
-

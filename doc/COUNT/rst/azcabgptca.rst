@@ -72,4 +72,3 @@ Examples
     modelfit(c91b)
     library(sandwich)
     sqrt(diag(vcovHC(c91a, type="HC0")))
-

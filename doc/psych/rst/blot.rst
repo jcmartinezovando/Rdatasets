@@ -50,9 +50,8 @@ Source
 ~~~~~~
 
 The data are taken (with kind permission from Trevor Bond) from the
-webpage
-`http://homes.jcu.edu.au/~edtgb/book/data/Bond87.txt <http://homes.jcu.edu.au/~edtgb/book/data/Bond87.txt>`__
-and read using read.fwf.
+webpage http://homes.jcu.edu.au/~edtgb/book/data/Bond87.txt and read
+using read.fwf.
 
 References
 ~~~~~~~~~~
@@ -82,4 +81,3 @@ Examples
     #do the same thing with functions in psych
     #blot.fa <- irt.fa(blot)  # a 2PN model
     #plot(blot.fa)
-

@@ -65,4 +65,3 @@ Examples
     mosaic(Hospital, shade = TRUE)
     sieve(Hospital, shade = TRUE)
     assoc(Hospital, shade = TRUE)
-

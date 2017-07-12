@@ -21,12 +21,12 @@ Usage
 Format
 ~~~~~~
 
-A data frame with 71 observations on 2 variables.
+A data frame with 71 observations on the following 2 variables.
 
-weight
+``weight``
     a numeric variable giving the chick weight.
 
-feed
+``feed``
     a factor giving the feed type.
 
 Details
@@ -60,4 +60,3 @@ Examples
                 mar = c(4.1, 4.1, 2.1, 1.1))
     plot(fm1)
     par(opar)
-

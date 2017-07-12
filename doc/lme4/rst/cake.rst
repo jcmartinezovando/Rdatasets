@@ -74,4 +74,3 @@ Examples
 
     ## and now "choose" :
     anova(fm3, fm2, fm1)
-

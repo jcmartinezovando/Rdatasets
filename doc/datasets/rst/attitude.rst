@@ -65,4 +65,3 @@ Examples
     summary(fm2 <- lm(rating ~ complaints, data = attitude))
     plot(fm2)
     par(opar)
-

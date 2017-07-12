@@ -81,4 +81,3 @@ Examples
     ## Replaced
     mosaic(Employment[,,2], main = "Layoff: Replaced", newpage = FALSE)
     popViewport(2)
-

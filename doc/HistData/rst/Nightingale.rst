@@ -86,8 +86,7 @@ Source
 The data were obtained from:
 
 Pearson, M. and Short, I. (2007). Understanding Uncertainty: Mathematics
-of the Coxcomb.
-`http://understandinguncertainty.org/node/214 <http://understandinguncertainty.org/node/214>`__.
+of the Coxcomb. http://understandinguncertainty.org/node/214.
 
 References
 ~~~~~~~~~~
@@ -101,10 +100,10 @@ British Army during the Late War with Russia* London: John W. Parker and
 Son.
 
 Small, H. (1998) Florence Nightingale's statistical diagrams
-`http://www.florence-nightingale-avenging-angel.co.uk/GraphicsPaper/Graphics.htm <http://www.florence-nightingale-avenging-angel.co.uk/GraphicsPaper/Graphics.htm>`__
+http://www.florence-nightingale-avenging-angel.co.uk/GraphicsPaper/Graphics.htm
 
 Pearson, M. and Short, I. (2008) Nightingale's Rose (flash animation).
-`http://understandinguncertainty.org/files/animations/Nightingale11/Nightingale1.html <http://understandinguncertainty.org/files/animations/Nightingale11/Nightingale1.html>`__
+http://understandinguncertainty.org/files/animations/Nightingale11/Nightingale1.html
 
 Examples
 ~~~~~~~~

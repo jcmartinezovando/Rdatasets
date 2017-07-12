@@ -66,4 +66,3 @@ Examples
     summary(survreg(Surv(time, cens) ~ treat, gehan))
     gehan.cox <- coxph(Surv(time, cens) ~ treat, gehan)
     summary(gehan.cox)
-

@@ -63,7 +63,7 @@ Source
 ~~~~~~
 
 The original data are available at
-`http://lib.stat.cmu.edu/datasets/1993.expo/ <http://lib.stat.cmu.edu/datasets/1993.expo/>`__.
+http://lib.stat.cmu.edu/datasets/1993.expo/.
 
 References
 ~~~~~~~~~~

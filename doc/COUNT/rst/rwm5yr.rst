@@ -119,4 +119,3 @@ Examples
     exp(coef(glmrnb))
 
     ## End(Not run)
-

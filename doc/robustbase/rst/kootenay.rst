@@ -84,4 +84,3 @@ Examples
     points(kootenay2[4,], col = 2, cex =2, pch = 3)
     abline(lm   (Newgate ~ Libby, data = kootenay2), col = "pink")
     abline(lmrob(Newgate ~ Libby, data = kootenay2), col = "blue")
-

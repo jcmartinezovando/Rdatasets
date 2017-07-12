@@ -89,4 +89,3 @@ Examples
     ma
     ## Plot similar to Figure 10 in Struyf et al (1996)
     plot(ma)
-

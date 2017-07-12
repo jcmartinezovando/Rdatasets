@@ -45,4 +45,3 @@ Examples
     data(prussian)
     corpP <- glm(y ~ corp, family=poisson,data=prussian)
     summary(corpP)
-

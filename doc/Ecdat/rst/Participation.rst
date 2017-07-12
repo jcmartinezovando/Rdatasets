@@ -60,11 +60,10 @@ References
 
 Davidson, R. and James G. MacKinnon (2004) *Econometric Theory and
 Methods*, New York, Oxford University Press,
-`http://www.econ.queensu.ca/ETM/ <http://www.econ.queensu.ca/ETM/>`__,
-chapter 11.
+http://www.econ.queensu.ca/ETM/, chapter 11.
 
 Journal of Applied Econometrics data archive :
-`http://jae.wiley.com/jae/ <http://jae.wiley.com/jae/>`__.
+http://qed.econ.queensu.ca/jae/.
 
 See Also
 ~~~~~~~~

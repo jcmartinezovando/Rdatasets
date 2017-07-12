@@ -72,4 +72,3 @@ Examples
     par(mfrow = c(1,1), pty = "m")
     oats.aov2 <- aov(Y ~ N + V + Error(B/V), data = oats, qr = TRUE)
     model.tables(oats.aov2, type = "means", se = TRUE)
-

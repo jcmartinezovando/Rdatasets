@@ -91,4 +91,3 @@ Examples
     glmaznb <- glm.nb(los ~ procedure + sex + admit, data=azprocedure)
     summary(glmaznb)
     exp(coef(glmaznb))
-

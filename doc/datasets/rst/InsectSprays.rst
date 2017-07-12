@@ -57,4 +57,3 @@ Examples
     summary(fm2)
     plot(fm2)
     par(opar)
-

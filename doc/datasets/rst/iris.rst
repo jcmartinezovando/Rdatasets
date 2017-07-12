@@ -66,4 +66,3 @@ Examples
                                             sub(" W.",".Width", dni3[[2]])))),
         Species = gl(3, 50, labels = sub("S", "s", sub("V", "v", dni3[[3]]))))
     all.equal(ii, iris) # TRUE
-

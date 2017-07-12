@@ -118,4 +118,3 @@ Examples
 
     house.plr2 <- stepAIC(house.plr, ~.^2)
     house.plr2$anova
-

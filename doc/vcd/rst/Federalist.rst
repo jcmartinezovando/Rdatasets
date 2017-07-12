@@ -61,4 +61,3 @@ Examples
     gf <- goodfit(Federalist, type = "nbinomial")
     summary(gf)
     plot(gf)
-

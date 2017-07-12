@@ -48,4 +48,3 @@ Examples
     Roe <- Dwyer[1:7,8]
     fo <- fa(Ro,2,rotate="none")
     fa.extension(Roe,fo)
-

@@ -36,4 +36,3 @@ Examples
 ::
 
     data(baboon)
-

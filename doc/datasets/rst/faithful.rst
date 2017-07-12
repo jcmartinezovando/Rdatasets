@@ -67,7 +67,7 @@ Faithful geyser. *Applied Statistics* **39**, 357–365.
 See Also
 ~~~~~~~~
 
-``geyser`` in package `MASS <http://CRAN.R-project.org/package=MASS>`__
+``geyser`` in package `MASS <https://CRAN.R-project.org/package=MASS>`__
 for the Azzalini–Bowman version.
 
 Examples
@@ -91,4 +91,3 @@ Examples
          ylab = "Waiting time to next eruption (min)")
     lines(lowess(faithful$eruptions, faithful$waiting, f = 2/3, iter = 3),
           col = "red")
-

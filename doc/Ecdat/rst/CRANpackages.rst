@@ -28,9 +28,9 @@ A ``data.frame`` containing:
 Version
     an ordered factor of the R version number primarily in use at the
     time. This was taken from archives of the major releases at
-    `https://svn.r-project.org/R/branches/R-1-3-patches/tests/internet.Rout.save <https://svn.r-project.org/R/branches/R-1-3-patches/tests/internet.Rout.save>`__,
+    https://svn.r-project.org/R/branches/R-1-3-patches/tests/internet.Rout.save,
     ...
-    `https://svn.r-project.org/R/branches/R-3-1-branch/tests/internet.Rout.save <https://svn.r-project.org/R/branches/R-3-1-branch/tests/internet.Rout.save>`__
+    https://svn.r-project.org/R/branches/R-3-1-branch/tests/internet.Rout.save
 
 Date
     an object of class ``Date`` giving the date on which the count of
@@ -78,7 +78,7 @@ Source
 
 John Fox, "Aspects of the Social Organization and Trajectory of the R
 Project", *R Journal*, 1(2), Dec. 2009, 5-13.
-`http://journal.r-project.org/archive/2009-2/RJournal\_2009-2\_Fox.pdf <http://journal.r-project.org/archive/2009-2/RJournal_2009-2_Fox.pdf>`__,
+https://journal.r-project.org/archive/2009-2/RJournal_2009-2_Fox.pdf,
 accessed 2014-04-13.
 
 Examples
@@ -88,4 +88,3 @@ Examples
 
     plot(Packages~Date, CRANpackages, log='y')
     # almost exponential growth
-

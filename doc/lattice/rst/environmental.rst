@@ -94,4 +94,3 @@ Examples
       xlab="Solar radiation (langleys)",
       ylab="Ozone (cube root ppb)")
     })
-

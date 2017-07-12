@@ -91,14 +91,14 @@ Details
 ~~~~~~~
 
 | The 13 sites are part of one of the three air quality monitoring
-networks: inLuft (regional authorities of central Switzerland and canton
-Aargau)
-|  NABEL (Swiss federal network)
-|  MFM-U (Monitoring flankierende Massnahmen Umwelt), special Swiss
-federal network along transit motorways A2 and A13 from Germany to Italy
-through Switzerland
-|  The information within the brackets means: Swiss coordinates km east,
-km north; m above sea level; network
+  networks: inLuft (regional authorities of central Switzerland and
+  canton Aargau)
+| NABEL (Swiss federal network)
+| MFM-U (Monitoring flankierende Massnahmen Umwelt), special Swiss
+  federal network along transit motorways A2 and A13 from Germany to
+  Italy through Switzerland
+| The information within the brackets means: Swiss coordinates km east,
+  km north; m above sea level; network
 
 When the measuring sites are exposed to the same atmospheric condition
 and when there is no singular emission event at any site,
@@ -116,8 +116,8 @@ Source
 ~~~~~~
 
 | http://www.in-luft.ch/
-|  http://www.empa.ch/plugin/template/empa/\*/6794
-|  http://www.bafu.admin.ch/umweltbeobachtung/02272/02280
+| http://www.empa.ch/plugin/template/empa/\*/6794
+| http://www.bafu.admin.ch/umweltbeobachtung/02272/02280
 
 See Also
 ~~~~~~~~
@@ -196,4 +196,3 @@ Examples
 
     lattice::levelplot(aW, asp=1/2, main="Robustness weights",
                        xlab= "day", ylab= "site")
-

@@ -46,7 +46,7 @@ Source
 ~~~~~~
 
 Michael Friendly (2000), Visualizing Categorical Data:
-`http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/orings.sas <http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/orings.sas>`__
+http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/orings.sas
 
 References
 ~~~~~~~~~~
@@ -79,4 +79,3 @@ Examples
           predict(fm, data.frame(Temperature = 30 : 81), type = "re"),
           lwd = 2)
     abline(v = 31, lty = 3)
-

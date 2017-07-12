@@ -51,7 +51,7 @@ Source
 ~~~~~~
 
 M. Friendly (2000), Visualizing Categorical Data:
-`http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/lifeboat.sas <http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/lifeboat.sas>`__
+http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/lifeboat.sas
 
 References
 ~~~~~~~~~~
@@ -81,4 +81,3 @@ Examples
     grid_legend(0.8, 0.9, c(1, 19), c("red", "blue"),
       c("Port", "Starboard"), title = "SIDE")
     detach(Lifeboats)
-

@@ -35,7 +35,7 @@ A data frame with 32 observations on 11 variables.
 +---------+--------+--------------------------------------------+
 | [, 5]   | drat   | Rear axle ratio                            |
 +---------+--------+--------------------------------------------+
-| [, 6]   | wt     | Weight (lb/1000)                           |
+| [, 6]   | wt     | Weight (1000 lbs)                          |
 +---------+--------+--------------------------------------------+
 | [, 7]   | qsec   | 1/4 mile time                              |
 +---------+--------+--------------------------------------------+
@@ -63,4 +63,3 @@ Examples
     pairs(mtcars, main = "mtcars data")
     coplot(mpg ~ disp | as.factor(cyl), data = mtcars,
            panel = panel.smooth, rows = 1)
-

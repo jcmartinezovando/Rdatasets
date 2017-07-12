@@ -29,9 +29,7 @@ are attributes for carboxylic acids:
     “response”.
 
 ``logKow``
-    *log Kow*
-
-    , the partition coefficient
+    *log Kow*, the partition coefficient
 
 ``pKa``
     pKa: the dissociation constant
@@ -62,7 +60,7 @@ Source
 ~~~~~~
 
 The website accompanying the MMY-book:
-`http://www.wiley.com/legacy/wileychi/robust\_statistics <http://www.wiley.com/legacy/wileychi/robust_statistics>`__
+http://www.wiley.com/legacy/wileychi/robust_statistics
 
 References
 ~~~~~~~~~~
@@ -87,4 +85,3 @@ Examples
     csT <- covOGK(scTox, n.iter = 2,
                   sigmamu = s_Qn, weight.fn = hard.rejection)
     as.dist(round(cov2cor(csT$cov), 2))
-

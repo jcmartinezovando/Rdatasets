@@ -161,4 +161,3 @@ Examples
         lowess(x[keep], y[keep], ...)
     }
     with(car90, lines(mlowess(Price/1000, Weight, f = 0.5)))
-

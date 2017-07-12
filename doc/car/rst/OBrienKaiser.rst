@@ -97,4 +97,3 @@ Examples
     OBrienKaiser
     contrasts(OBrienKaiser$treatment)
     contrasts(OBrienKaiser$gender)
-

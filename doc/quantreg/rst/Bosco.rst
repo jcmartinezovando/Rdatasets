@@ -57,4 +57,3 @@ Examples
                     format(round(z$sol[1,i+1],2)),")",delim="")
             text(xb[i],yb[i],interval)
             }
-

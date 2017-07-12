@@ -66,4 +66,3 @@ Examples
     gf <- goodfit(WomenQueue, type = "binomial")
     summary(gf)
     plot(gf)
-

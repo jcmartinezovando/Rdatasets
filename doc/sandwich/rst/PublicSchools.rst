@@ -110,4 +110,3 @@ Examples
     fml <- lm(Expenditure ~ Income, data = ps)
     abline(fml)
     text(ps[2,2], ps[2,1], rownames(ps)[2], pos = 2)
-

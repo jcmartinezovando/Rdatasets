@@ -83,4 +83,3 @@ Examples
     data(Tucker)
     fa(Tucker,2,n.obs=710)
     omega(Tucker,2)
-

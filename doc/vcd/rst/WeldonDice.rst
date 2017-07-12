@@ -63,4 +63,3 @@ Examples
     gf <- goodfit(WeldonDice, type = "binomial")
     summary(gf)
     plot(gf)
-

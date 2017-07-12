@@ -131,4 +131,3 @@ Examples
     axis(1)
     axis(3)
     abline(v=0)
-

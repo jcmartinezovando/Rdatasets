@@ -62,7 +62,7 @@ Source
 ~~~~~~
 
 Homepage of the Deutscher Fussball-Bund (DFB, German Football
-Association): `http://www.dfb.de/ <http://www.dfb.de/>`__
+Association): http://www.dfb.de/
 
 References
 ~~~~~~~~~~
@@ -100,4 +100,3 @@ Examples
 
     Ord_plot(ngoals1)
     distplot(ngoals1)
-

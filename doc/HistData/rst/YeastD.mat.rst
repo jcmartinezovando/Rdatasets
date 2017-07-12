@@ -68,15 +68,15 @@ Source
 
 D. J. Hand, F. Daly, D. Lunn, K. McConway and E. Ostrowski (1994). *A
 Handbook of Small Data Sets*. London: Chapman \\& Hall. The data may be
-found at
-`http://www.stat.duke.edu/courses/Spring98/sta113/Data/Hand/yeast.dat <http://www.stat.duke.edu/courses/Spring98/sta113/Data/Hand/yeast.dat>`__
+found at:
+http://www.stat.duke.edu/courses/Spring98/sta113/Data/Hand/yeast.dat
 
 References
 ~~~~~~~~~~
 
 "Student" (1906) On the error of counting with a haemocytometer.
 Biometrika, 5, 351-360.
-`http://www.jstor.org/stable/pdfplus/2331633.pdf <http://www.jstor.org/stable/pdfplus/2331633.pdf>`__
+http://www.medicine.mcgill.ca/epidemiology/hanley/c626/Student_counting.pdf
 
 Examples
 ~~~~~~~~
@@ -95,4 +95,3 @@ Examples
     # same, using xyplot
     xyplot(freq~count|sample, data=Yeast, xlab="Number of Cells", ylab="Frequency",
         horizontal=FALSE, origin=0, type="h", lwd=10)
-

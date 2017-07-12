@@ -57,4 +57,3 @@ Examples
     }
     legend("bottomright", paste("tau = ", taus), inset = .04,
            col = 2:(length(taus)+1), lty=1)
-

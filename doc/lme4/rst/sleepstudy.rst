@@ -57,4 +57,3 @@ Examples
            ylab = "Average reaction time (ms)", aspect = "xy")
     (fm1 <- lmer(Reaction ~ Days + (Days|Subject), sleepstudy))
     (fm2 <- lmer(Reaction ~ Days + (1|Subject) + (0+Days|Subject), sleepstudy))
-

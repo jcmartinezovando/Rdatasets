@@ -66,8 +66,8 @@ the office shelves; we are therefore dealing with a random sampling.*
 Source
 ~~~~~~
 
-`http://pbil.univ-lyon1.fr/R/donnees/criminals1902.txt <http://pbil.univ-lyon1.fr/R/donnees/criminals1902.txt>`__
-thanks to Jean R. Lobry and Anne-Béatrice Dufour.
+http://pbil.univ-lyon1.fr/R/donnees/criminals1902.txt thanks to Jean R.
+Lobry and Anne-Béatrice Dufour.
 
 References
 ~~~~~~~~~~
@@ -134,4 +134,3 @@ Examples
     hist(x = zobs, probability = TRUE, xlab = "Student's z",
          col = grey(0.8), border = grey(0.5),
          main = "Distribution of Student's z score  for 'crimtab' data")
-

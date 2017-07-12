@@ -90,4 +90,3 @@ Examples
     ols <- lm(union ~ left + size + concen,
               data=unionDensity)
     summary(ols)
-

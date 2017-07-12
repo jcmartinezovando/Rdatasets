@@ -33,8 +33,8 @@ Cross-Classifications having Ordered Categories. *J. Am. Stat. Assoc.*,
 **74** (367), 537–552.
 
 The data set has been in package
-`gnm <http://CRAN.R-project.org/package=gnm>`__ and been provided by the
-package authors.
+`gnm <https://CRAN.R-project.org/package=gnm>`__ and been provided by
+the package authors.
 
 Examples
 ~~~~~~~~
@@ -54,4 +54,3 @@ Examples
 
     summary(modUnif)
     plot(modUnif) # 4 plots, with warning about  h_ii ~= 1
-

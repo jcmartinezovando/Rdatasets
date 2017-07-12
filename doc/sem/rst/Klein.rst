@@ -84,4 +84,3 @@ Examples
     summary(tsls(Wp ~ X + X.lag + I(Year - 1931),
         instruments=~1 + G + T + Wg + I(Year - 1931) + K.lag + P.lag + X.lag,
         data=Klein))
-

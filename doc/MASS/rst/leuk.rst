@@ -71,4 +71,3 @@ Examples
     # now Cox models
     leuk.cox <- coxph(Surv(time) ~ ag + log(wbc), leuk)
     summary(leuk.cox)
-

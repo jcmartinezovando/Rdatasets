@@ -81,4 +81,3 @@ Examples
           panel.xyplot(x, Muscle$logLength[subscripts], ...)
           llines(spline(x, y))
        })
-

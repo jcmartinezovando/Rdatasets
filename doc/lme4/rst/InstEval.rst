@@ -68,4 +68,3 @@ Examples
 
     head(InstEval, 16)
     xtabs(~ service + dept, InstEval)
-

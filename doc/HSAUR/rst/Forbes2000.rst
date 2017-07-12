@@ -50,8 +50,7 @@ marketvalue
 Source
 ~~~~~~
 
-`http://www.forbes.com <http://www.forbes.com>`__, assessed on November
-26th, 2004.
+http://www.forbes.com, assessed on November 26th, 2004.
 
 Examples
 ~~~~~~~~
@@ -64,4 +63,3 @@ Examples
     length(levels(Forbes2000$country))
     ### number of industries
     length(levels(Forbes2000$category))
-

@@ -9,7 +9,7 @@ Description
 ~~~~~~~~~~~
 
 Journal of Applied Econometrics data archive :
-`http://jae.wiley.com/jae/ <http://jae.wiley.com/jae/>`__
+http://qed.econ.queensu.ca/jae/
 
 *number of observations* : 5574
 

@@ -82,4 +82,3 @@ Examples
 ::
 
     data(burn)
-

@@ -25,7 +25,7 @@ Format
 ~~~~~~
 
 | numeric vector, sorted increasingly:
-|  0 0.8 1 1.2 1.3 1.3 1.4 1.8 2.4 4.6
+| 0 0.8 1 1.2 1.3 1.3 1.4 1.8 2.4 4.6
 
 Source
 ~~~~~~
@@ -76,4 +76,3 @@ Examples
                        gr[[2]] - gr[[1]] })
     stopifnot(all.equal(cushny,
                         sort(d.sleep), tolerance=1e-15))
-

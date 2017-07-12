@@ -39,7 +39,7 @@ A data frame with 1448 observations on the following 4 variables:
 Source
 ~~~~~~
 
-Hulrburt M.S., Wood, P.A. and Hough, R.L. (1996). Providing independent
+Hulrburt M.S., Wood, P.A. and Hough, R.L. (1996) Providing independent
 housing for the homeless mentally ill: a novel approach to evaluating
 longitudinal housing patterns. *Journal of Community Psychology*,
 **24**, 291–310.
@@ -51,4 +51,3 @@ Examples
 
     data(housing)
     str(housing)
-

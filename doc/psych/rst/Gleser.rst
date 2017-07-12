@@ -102,4 +102,3 @@ Examples
     #now do the ANOVA
     anov <- aov(values ~ (Persons*Judges*Items),data=st.gc.df)
     summary(anov)
-

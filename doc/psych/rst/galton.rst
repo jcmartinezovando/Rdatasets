@@ -74,4 +74,3 @@ Examples
     pairs.panels(galton,lm=TRUE,main="Galton's Parent child heights") 
      #better is to scale them 
     pairs.panels(galton,lm=TRUE,xlim=c(62,74),ylim=c(62,74),main="Galton's Parent child heights") 
-

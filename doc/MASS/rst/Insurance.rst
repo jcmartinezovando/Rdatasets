@@ -71,4 +71,3 @@ Examples
     # same via loglm
     loglm(Claims ~ District + Group + Age + offset(log(Holders)),
           data = Insurance)
-

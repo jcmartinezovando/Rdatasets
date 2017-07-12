@@ -81,4 +81,3 @@ Examples
     (dotplot(y ~ reorder(Region,y,median), data = wagnerGrowth,
              main = "wagnerGrowth",
              xlab = "Region [ordered by  median(y | Region) ]"))
-

@@ -68,4 +68,3 @@ Examples
     par(opar)
     summary(fm1 <- lm(breaks ~ wool*tension, data = warpbreaks))
     anova(fm1)
-

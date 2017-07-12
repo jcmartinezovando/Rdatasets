@@ -41,7 +41,7 @@ Source
 ~~~~~~
 
 Michael Friendly (2000), Visualizing Categorical Data:
-`http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/vonbort.sas <http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/vonbort.sas>`__
+http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/vonbort.sas
 
 References
 ~~~~~~~~~~
@@ -72,4 +72,3 @@ Examples
     data("VonBort")
     ## HorseKicks data
     xtabs(~ deaths, data = VonBort, subset = fisher == "yes")
-

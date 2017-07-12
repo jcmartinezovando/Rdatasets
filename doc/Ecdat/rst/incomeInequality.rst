@@ -55,7 +55,7 @@ realGDP.M, GDP.Deflator, PopulationK, realGDPperCap
 
 P95IRSvsCensus
     ratio of the estimates of the 95th percentile of distributions of
-    family income from the Piketty and Saez analyis of data from the
+    family income from the Piketty and Saez analysis of data from the
     Internal Revenue Service (IRS) and from the US Census Bureau.
 
     The IRS has ranged between 72 and 98 percent of the Census Bureau
@@ -96,18 +96,16 @@ Source
 
 United States Census Bureau, Table F-1. Income Limits for Each Fifth and
 Top 5 Percent of Families, All Races,
-`http://www.census.gov/hhes/www/income/data/historical/families <http://www.census.gov/hhes/www/income/data/historical/families>`__,
-accessed March 25, 2014.
+http://www.census.gov/data/tables/time-series/demo/income-poverty/historical-income-inequality.html,
+accessed 2016-12-09.
 
 Thomas Piketty and Emmanuel Saez (2003) "Income Inequality in the United
 States, 1913-1998", Quarterly Journal of Economics, 118(1) 1-39,
-`http://elsa.berkeley.edu/~saez <http://elsa.berkeley.edu/~saez>`__,
-update accessed February 28, 2014.
+http://elsa.berkeley.edu/~saez, update accessed February 28, 2014.
 
 Louis Johnston and Samuel H. Williamson (2011) "What Was the U.S. GDP
-Then?" MeasuringWorth,
-`http://www.measuringworth.org/usgdp <http://www.measuringworth.org/usgdp>`__,
-accessed February 28, 2014.
+Then?" MeasuringWorth, http://www.measuringworth.org/usgdp, accessed
+February 28, 2014.
 
 Examples
 ~~~~~~~~
@@ -156,7 +154,7 @@ Examples
             log='y', type='l', col=plotColors, lty=plotLty)
 
     #*** Growth broadly shared 1947 - 1970, then began diverging
-    #*** The divergence has been most pronouced among the top 1%
+    #*** The divergence has been most pronounced among the top 1%
     #*** and especially the top 0.01%
 
     ##
@@ -322,4 +320,3 @@ Examples
     par(op) # reset margins
 
     dev.off() # for plot to a file
-

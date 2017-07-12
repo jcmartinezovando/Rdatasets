@@ -71,4 +71,3 @@ Examples
     plot(survfit(motor.cox, newdata = data.frame(temp=200),
          conf.type = "log-log"))
     summary( survfit(motor.cox, newdata = data.frame(temp=130)) )
-

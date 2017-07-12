@@ -63,4 +63,3 @@ Examples
     prof <- profile(eagles.glm)
     plot(prof)
     pairs(prof)
-

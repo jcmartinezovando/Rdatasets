@@ -80,4 +80,3 @@ Examples
     coplot(accel ~ dist | as.factor(event), data = attenu, show.given = FALSE)
     coplot(log(accel) ~ log(dist) | as.factor(event),
            data = attenu, panel = panel.smooth, show.given = FALSE)
-

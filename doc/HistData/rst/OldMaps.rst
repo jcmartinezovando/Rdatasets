@@ -73,7 +73,7 @@ Source
 Andrews, D. F., and Herzberg, A. M. (1985). *Data: A Collection of
 Problems from Many fields for the Student and Research Worker*. New
 York: Springer, Table 10.1. The data were obtained from
-`http://www.stat.duke.edu/courses/Spring01/sta114/data/Andrews/T10.1 <http://www.stat.duke.edu/courses/Spring01/sta114/data/Andrews/T10.1>`__.
+http://www.stat.duke.edu/courses/Spring01/sta114/data/Andrews/T10.1.
 
 Examples
 ~~~~~~~~
@@ -84,4 +84,3 @@ Examples
     ## maybe str(OldMaps) ; plot(OldMaps) ...
 
     with(OldMaps, plot(abs(long),abs(lat), pch=col, col=colors()[point]))
-

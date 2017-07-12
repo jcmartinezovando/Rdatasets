@@ -43,4 +43,3 @@ Examples
 ::
 
     data(larynx)
-

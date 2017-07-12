@@ -36,7 +36,7 @@ Source
 
 WDC-SILSO, Solar Influences Data Analysis Center (SIDC), Royal
 Observatory of Belgium, Av. Circulaire, 3, B-1180 BRUSSELS Currently at
-`http://www.sidc.be/silso/datafiles <http://www.sidc.be/silso/datafiles>`__
+http://www.sidc.be/silso/datafiles
 
 See Also
 ~~~~~~~~
@@ -75,4 +75,3 @@ Examples
     ssm0 <- sunspot.month[1:2988]
     with(as.data.frame(.sunspot.diff), ssm0[i] <<- ssm0[i] - res10/10)
     sunspot.month.0 <- ts(ssm0, start = 1749, frequency = 12)
-

@@ -1,6 +1,6 @@
 library(pacman)
 library(R2HTML)
-packages = c("datasets", "boot", "DAAG", "gamclass", "KMsurv", "robustbase", "car", "cluster", "COUNT", "Ecdat", "gap", "ggplot2", "HistData", "lattice", "MASS", "plm", "plyr", "pscl", "reshape2", "rpart", "sandwich", "sem",  "survival", "vcd", "Zelig", "HSAUR", "psych", "quantreg", "geepack", "texmex", "multgee", "evir", "lme4", "mosaicData", "ISLR", "Stat2Data", "hwde", "mi", "mediation")
+packages = c("datasets", "boot", "DAAG", "gamclass", "KMsurv", "robustbase", "car", "cluster", "COUNT", "Ecdat", "gap", "ggplot2", "HistData", "lattice", "MASS", "plm", "plyr", "pscl", "reshape2", "rpart", "sandwich", "sem",  "survival", "vcd", "Zelig", "HSAUR", "psych", "quantreg", "geepack", "texmex", "multgee", "evir", "lme4", "mosaicData", "ISLR", "Stat2Data", "hwde", "mi", "mediation", "wooldridge")
 p_load(char = packages)
 
 # Index
@@ -16,30 +16,32 @@ for (i in 1:nrow(index)) {
     # Load data in new environment (very hackish)
     e = new.env(hash = TRUE, parent = parent.frame(), size = 29L)
     cmd = paste('data(', dataset, ', envir=e)', sep='')
-    eval(parse(text=cmd))
-    d = e[[dataset]]
-    if(class(d) %in% c('data.frame', 'matrix', 'numeric', 'table', 'ts')){
-        cat("Processing data set: ", dataset, "\n")
-        if(class(d)=='ts'){
-            d = data.frame(time(d), d)
-            colnames(d) = c('time', dataset)
+    sanity = try(eval(parse(text=cmd)), silent = TRUE)
+    if (class(sanity) != 'try-error') {
+        d = e[[dataset]]
+        if(class(d) %in% c('data.frame', 'matrix', 'numeric', 'table', 'ts')){
+            cat("Processing data set: ", dataset, "\n")
+            if(class(d)=='ts'){
+                d = data.frame(time(d), d)
+                colnames(d) = c('time', dataset)
+            }
+            try(dir.create(paste('csv/', package, sep='')))
+            try(dir.create(paste('doc/', package, sep='')))
+            dest_csv = paste('csv/', package, '/', dataset, '.csv', sep='')
+            dest_doc = paste('doc/', package, '/', dataset, '.html', sep='')
+            # Save data as CSV
+            write.csv(d, dest_csv)
+            # Save documentation as HTML
+            help.ref = help(eval(dataset), package=eval(package))
+            help.file = utils:::.getHelpFile(help.ref)
+            tools::Rd2HTML(help.file, out=dest_doc)
+            # Add entry to index out
+            index_out = rbind(index_out, index[i,])
+            # Add entry to dimensions out
+            size_d = dim(d)
+            if (is.null(size_d)) size_d = c(length(d), 1)  # numeric vector
+            size_out = rbind(size_out, data.frame(Rows=size_d[1], Cols=size_d[2]))
         }
-        try(dir.create(paste('csv/', package, sep='')))
-        try(dir.create(paste('doc/', package, sep='')))
-        dest_csv = paste('csv/', package, '/', dataset, '.csv', sep='')
-        dest_doc = paste('doc/', package, '/', dataset, '.html', sep='')
-        # Save data as CSV
-        write.csv(d, dest_csv)
-        # Save documentation as HTML
-        help.ref = help(eval(dataset), package=eval(package))
-        help.file = utils:::.getHelpFile(help.ref)
-        tools::Rd2HTML(help.file, out=dest_doc)
-        # Add entry to index out
-        index_out = rbind(index_out, index[i,])
-        # Add entry to dimensions out
-        size_d = dim(d)
-        if (is.null(size_d)) size_d = c(length(d), 1)  # numeric vector
-        size_out = rbind(size_out, data.frame(Rows=size_d[1], Cols=size_d[2]))
     }
 }
 
@@ -65,4 +67,3 @@ rss = '
 '
 cat(rss, file='datasets.html')
 HTML(index_out, file='datasets.html', row.names=FALSE, append=TRUE)
-

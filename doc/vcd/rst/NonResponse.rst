@@ -55,4 +55,3 @@ Examples
 
     data("NonResponse")
     structable(~ ., data = NonResponse)
-

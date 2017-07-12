@@ -76,4 +76,3 @@ Examples
 
     data(Fingerprints)
     xtabs(count ~ Whorls + Loops, data=Fingerprints)
-

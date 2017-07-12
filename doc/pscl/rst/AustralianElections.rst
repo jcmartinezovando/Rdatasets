@@ -98,8 +98,7 @@ A data frame with the following variables:
 Source
 ~~~~~~
 
-Australian Electoral Commission.
-`http://www.aec.gov.au <http://www.aec.gov.au>`__.
+Australian Electoral Commission. http://www.aec.gov.au.
 
 References
 ~~~~~~~~~~
@@ -136,4 +135,3 @@ Examples
     lines(xseq,yhat,lwd=2)
     abline(h=.5,lty=2)
     abline(v=.5,lty=2)
-

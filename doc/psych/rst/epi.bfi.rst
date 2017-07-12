@@ -83,7 +83,7 @@ Data were collected at the Personality, Motivation, and Cognition Lab
 References
 ~~~~~~~~~~
 
-`http://personality-project.org/pmc.html <http://personality-project.org/pmc.html>`__
+http://personality-project.org/pmc.html
 
 Examples
 ~~~~~~~~
@@ -93,4 +93,3 @@ Examples
     data(epi.bfi)
     pairs.panels(epi.bfi[,1:5])
     describe(epi.bfi)
-

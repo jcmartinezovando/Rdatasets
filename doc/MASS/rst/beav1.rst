@@ -92,4 +92,3 @@ Examples
     beav1.ls <- lm(stemp ~ -1 + sX, na.action = na.omit)
     summary(beav1.ls, cor = FALSE)
     rm(temp, activ)
-

@@ -45,4 +45,3 @@ Examples
 ::
 
     data(channing)
-

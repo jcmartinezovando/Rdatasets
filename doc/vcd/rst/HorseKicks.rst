@@ -74,4 +74,3 @@ Examples
     gf <- goodfit(HorseKicks)
     summary(gf)
     plot(gf)
-

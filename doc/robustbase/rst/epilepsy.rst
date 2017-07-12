@@ -106,4 +106,3 @@ Examples
                     method = "Mqle",
                     tcc=1.2, maxit=100)
     summary(Efit2)
-

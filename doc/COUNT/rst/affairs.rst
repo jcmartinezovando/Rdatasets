@@ -118,4 +118,3 @@ Examples
                        data=affairs)
     summary(glmaffnb)
     exp(coef(glmaffnb))
-

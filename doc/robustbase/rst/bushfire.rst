@@ -39,4 +39,3 @@ Examples
     data(bushfire)
     plot(bushfire)
     covMcd(bushfire)
-

@@ -64,4 +64,3 @@ Examples
     glmbadnb <- glm.nb(numvisit ~ badh + age, data=badhealth)
     summary(glmbadnb)
     exp(coef(glmbadnb))
-

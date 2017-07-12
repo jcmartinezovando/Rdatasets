@@ -62,4 +62,3 @@ Examples
 
 
     ## See  example(lmrob.M.S) # for how robust regression is used
-

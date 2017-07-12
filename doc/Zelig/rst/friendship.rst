@@ -44,4 +44,3 @@ Examples
     friendship <- format.network.data(friends, advice, prestige, authority, perpower, per)
 
     ## End(Not run)
-

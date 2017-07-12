@@ -46,4 +46,3 @@ Examples
 ::
 
     data(hodg)
-

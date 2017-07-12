@@ -52,4 +52,3 @@ Examples
     Roe <- Gorsuch[1:6,7:10]
     fo <- fa(Ro,2,rotate="none")
     fa.extension(Roe,fo,correct=FALSE)
-

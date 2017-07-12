@@ -58,4 +58,3 @@ Examples
 ::
 
     data(bfeed)
-

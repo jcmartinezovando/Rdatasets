@@ -40,7 +40,7 @@ Source
 ~~~~~~
 
 M. Friendly (2000), Visualizing Categorical Data:
-`http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/vision.sas <http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/vision.sas>`__
+http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/vision.sas
 
 References
 ~~~~~~~~~~
@@ -58,4 +58,6 @@ Examples
 
     data("VisualAcuity")
     structable(~ gender + left + right, data = VisualAcuity)
-
+    sieve(Freq ~ left + right | gender, data = VisualAcuity, shade = TRUE)
+    cotabplot(Freq ~ left + right | gender, data = VisualAcuity,
+              panel = cotab_agreementplot)

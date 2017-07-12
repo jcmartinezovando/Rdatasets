@@ -68,4 +68,3 @@ Examples
                main = "Sleep prolongation (n = 10)")
     boxplot(sleep1, horizontal = TRUE, add = TRUE,
             at = .6, pars = list(boxwex = 0.5, staplewex = 0.25))
-

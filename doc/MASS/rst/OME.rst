@@ -187,4 +187,3 @@ Examples
          start = list(fixed=c(L75=c(41.5, -0.1), lsc=0)), verbose = TRUE)))
 
     ## End(Not run)
-

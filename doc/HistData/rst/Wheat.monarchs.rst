@@ -69,9 +69,8 @@ Playfair, W. (1821). *Letter on our Agricultural Distresses, Their
 Causes and Remedies*. London: W. Sams, 1821
 
 Data values: originally digitized from
-`http://www.math.yorku.ca/SCS/Gallery/images/playfair-wheat1.gif <http://www.math.yorku.ca/SCS/Gallery/images/playfair-wheat1.gif>`__
-now taken from
-`http://mbostock.github.com/protovis/ex/wheat.js <http://mbostock.github.com/protovis/ex/wheat.js>`__
+http://www.math.yorku.ca/SCS/Gallery/images/playfair-wheat1.gif now
+taken from http://mbostock.github.com/protovis/ex/wheat.js
 
 References
 ~~~~~~~~~~
@@ -159,4 +158,3 @@ Examples
         segments(start, y, end, y, col=ifelse(commonwealth, "white", NA), lwd=4, lend=1)
         text((start+end)/2, y-0.2, name, cex=0.5)
         })
-

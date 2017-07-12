@@ -55,4 +55,3 @@ Examples
 
     data(Harman.political)
     KMO(Harman.political)
-

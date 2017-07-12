@@ -57,4 +57,3 @@ Examples
     text(fit, use.n = TRUE)
     plot(fit2)
     text(fit2, use.n = TRUE)
-

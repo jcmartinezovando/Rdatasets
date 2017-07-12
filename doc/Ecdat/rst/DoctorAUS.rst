@@ -47,7 +47,7 @@ illness
     number of illness in past 2 weeks
 
 actdays
-    number of days of reduced activiy in past 2 weeks due to illness or
+    number of days of reduced activity in past 2 weeks due to illness or
     injury
 
 hscore
@@ -99,8 +99,7 @@ References
 
 Cameron, A.C. and Trivedi P.K. (1998) *Regression analysis of count
 data*, Cambridge University Press,
-`http://cameron.econ.ucdavis.edu/racd/racddata.html <http://cameron.econ.ucdavis.edu/racd/racddata.html>`__,
-chapter 3.
+http://cameron.econ.ucdavis.edu/racd/racddata.html, chapter 3.
 
 See Also
 ~~~~~~~~

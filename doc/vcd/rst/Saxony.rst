@@ -62,4 +62,3 @@ Examples
     gf <- goodfit(Saxony, type = "binomial")
     summary(gf)
     plot(gf)
-

@@ -58,8 +58,7 @@ Harvey, A.C. (1989) *Forecasting, Structural Time Series Models and the
 Kalman Filter.* Cambridge University Press, pp. 519–523.
 
 Durbin, J. and Koopman, S. J. (2001) *Time Series Analysis by State
-Space Methods.* Oxford University Press.
-`http://www.ssfpack.com/dkbook/ <http://www.ssfpack.com/dkbook/>`__
+Space Methods.* Oxford University Press. http://www.ssfpack.com/dkbook/
 
 References
 ~~~~~~~~~~
@@ -90,4 +89,3 @@ Examples
     X[, 1] <- log10(X[, 1]) - 4
     arima(log10(Seatbelts[, "drivers"]), c(1, 0, 0),
           seasonal = list(order = c(1, 0, 0)), xreg = X)
-

@@ -58,4 +58,3 @@ Examples
     summary(fm2 <- update(fm1, ~ . + log(Height), data = trees))
     step(fm2)
     ## i.e., Volume ~= c * Height * Girth^2  seems reasonable
-

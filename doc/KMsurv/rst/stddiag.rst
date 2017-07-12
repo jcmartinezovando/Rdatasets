@@ -33,4 +33,3 @@ Examples
 ::
 
     data(stddiag)
-

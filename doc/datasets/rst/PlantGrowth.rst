@@ -49,4 +49,3 @@ Examples
             ylab = "Dried weight of plants", col = "lightgray",
             notch = TRUE, varwidth = TRUE)
     anova(lm(weight ~ group, data = PlantGrowth))
-

@@ -58,4 +58,3 @@ Examples
     ## no difference between LS and robust:
     abline( lm.lp)
     abline(lmR.lp, col=2)
-

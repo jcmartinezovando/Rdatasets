@@ -91,4 +91,3 @@ Examples
     summary(fmm_pg)
 
     ## End(Not run)
-

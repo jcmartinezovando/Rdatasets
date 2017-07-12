@@ -72,4 +72,3 @@ Examples
 
     z.auto <- rpart(Mileage ~ Weight, car.test.frame)
     summary(z.auto)
-

@@ -54,7 +54,7 @@ Source
 ~~~~~~
 
 Der Bundeswahlleiter, Statistisches Bundesamt.
-`http://www.bundeswahlleiter.de/bundestagswahl2005/ <http://www.bundeswahlleiter.de/bundestagswahl2005/>`__
+http://www.bundeswahlleiter.de/de/bundestagswahlen/fruehere_bundestagswahlen/btw2005.html
 
 Examples
 ~~~~~~~~
@@ -93,4 +93,3 @@ Examples
       just_labels = c("center","center","center","right"), varnames = FALSE),
       margins = unit(c(2.5, 1, 1, 12), "lines"),
       keep_aspect_ratio = FALSE)
-

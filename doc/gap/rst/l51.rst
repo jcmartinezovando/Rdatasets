@@ -32,7 +32,7 @@ References
 ~~~~~~~~~~
 
 Morgan v3.
-`http://www.stat.washington.edu/thompson/Genepi/MORGAN/Morgan.shtml <http://www.stat.washington.edu/thompson/Genepi/MORGAN/Morgan.shtml>`__
+http://www.stat.washington.edu/thompson/Genepi/MORGAN/Morgan.shtml
 
 Examples
 ~~~~~~~~
@@ -61,4 +61,3 @@ Examples
     write.dta(ped51,"ped51.dta")
 
     ## End(Not run)
-

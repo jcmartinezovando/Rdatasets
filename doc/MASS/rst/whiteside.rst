@@ -82,4 +82,3 @@ Examples
     options(contrasts = c("contr.treatment", "contr.poly"))
     gasBA1 <- lm(Gas ~ Insul*Temp, whiteside)
     coef(summary(gasBA1))
-

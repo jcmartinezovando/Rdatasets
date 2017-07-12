@@ -64,4 +64,3 @@ Examples
              main = "euro data: 1 currency unit in Euros")
     dotchart(log(euro, 10),
              main = "euro data: log10(1 Euro in currency unit)")
-

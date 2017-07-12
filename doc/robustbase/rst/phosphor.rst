@@ -52,4 +52,3 @@ Examples
     phosphor.x <- data.matrix(phosphor[, 1:2])
     cPh <- covMcd(phosphor.x)
     plot(cPh, "dd")
-

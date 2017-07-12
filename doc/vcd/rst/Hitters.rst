@@ -73,4 +73,3 @@ Examples
       title = "POSITION(S)")
 
     detach(Hitters)
-

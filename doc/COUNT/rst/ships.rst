@@ -89,4 +89,3 @@ Examples
     summary(shipgee)
 
     ## End(Not run)
-

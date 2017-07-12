@@ -130,4 +130,3 @@ Examples
 ::
 
     data("Baseball")
-

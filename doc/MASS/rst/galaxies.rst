@@ -58,4 +58,3 @@ Examples
     rug(gal)
     lines(density(gal, width = 3.25, n = 200), lty = 1)
     lines(density(gal, width = 2.56, n = 200), lty = 3)
-

@@ -43,7 +43,7 @@ Source
 ~~~~~~
 
 David Leip's Atlas of U.S. Presidential Elections
-`http://uselectionsatlas.org <http://uselectionsatlas.org>`__
+http://uselectionsatlas.org
 
 Examples
 ~~~~~~~~
@@ -51,7 +51,7 @@ Examples
 ::
 
     data(presidentialElections)
-    xyplot(demVote ~ year | state,
+    lattice::xyplot(demVote ~ year | state,
            panel=panel.lines,
            ylab="Democratic Vote for President (percent)",
            xlab="Year",

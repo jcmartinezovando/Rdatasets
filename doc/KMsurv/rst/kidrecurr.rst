@@ -66,4 +66,3 @@ Examples
 ::
 
     data(kidrecurr)
-

@@ -66,4 +66,3 @@ Examples
     summary.lm(npk.aov1)
     se.contrast(npk.aov1, list(N=="0", N=="1"), data = npk)
     model.tables(npk.aov1, type = "means", se = TRUE)
-

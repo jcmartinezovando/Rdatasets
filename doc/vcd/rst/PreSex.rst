@@ -40,7 +40,7 @@ Source
 ~~~~~~
 
 Michael Friendly (2000), Visualizing Categorical Data:
-`http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/marital.sas <http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/marital.sas>`__
+http://euclid.psych.yorku.ca/ftp/sas/vcd/catdata/marital.sas
 
 References
 ~~~~~~~~~~
@@ -81,4 +81,3 @@ Examples
            expected = ~ Gender * PremaritalSex * ExtramaritalSex
                         + MaritalStatus * PremaritalSex * ExtramaritalSex,
            main = "G*P*E + P*E*M")
-

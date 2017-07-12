@@ -62,4 +62,3 @@ Examples
                 mar = c(4.1, 4.1, 2.1, 1.1))
     plot(fm1)
     par(opar)
-

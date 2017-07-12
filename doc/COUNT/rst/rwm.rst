@@ -69,4 +69,3 @@ Examples
     glmrwnb <- glm.nb(docvis ~ age + educ + hhninc, data=rwm)
     summary(glmrwnb)
     exp(coef(glmrwnb))
-

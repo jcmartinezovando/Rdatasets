@@ -63,10 +63,10 @@ statistically significant.
 Source
 ~~~~~~
 
-Fitzpatrick, John P. (2013) `*Annual Report to the President for 2012*,
+Fitzpatrick, John P. (2013) *Annual Report to the President for 2012*,
 United States Information Security Oversight Office, National Archives
-and Record Administration, June 20, 2013 (accessed
-2014-05-14) <http://www.archives.gov/isoo/reports/2012-annual-cost-report.pdf>`__
+and Record Administration, June 20, 2013
+(https://www.archives.gov/isoo/reports)
 
 Examples
 ~~~~~~~~
@@ -101,4 +101,3 @@ Examples
     # lag 1 autocorrelation = (-0.52).  
     # However, with only 12 numbers, 
     # this is not statistically significant.  
-

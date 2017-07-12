@@ -55,4 +55,3 @@ Examples
 ::
 
     Pottery
-

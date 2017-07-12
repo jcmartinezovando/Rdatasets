@@ -53,7 +53,7 @@ A data frame with 7584 observations on the following 13 variables.
 Source
 ~~~~~~
 
-`http://bear.soe.berkeley.edu/EIRM/ <http://bear.soe.berkeley.edu/EIRM/>`__
+http://bear.soe.berkeley.edu/EIRM/
 
 References
 ~~~~~~~~~~
@@ -88,4 +88,3 @@ Examples
     print(fmVA0 <- glmer(r2 ~ (Anger + Gender + btype + situ)^2 +
                         (1|id) + (1|item), family = binomial, data =
                         VerbAgg, nAGQ=0L), corr=FALSE)
-

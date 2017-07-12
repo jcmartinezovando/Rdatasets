@@ -53,11 +53,10 @@ Source
 ~~~~~~
 
 Keith Poole, 107th Senate Roll Call Data.
-`ftp://voteview.com/sen107kh.ord <ftp://voteview.com/sen107kh.ord>`__
-The Iraq vote is vote number 617.
+ftp://voteview.com/sen107kh.ord The Iraq vote is vote number 617.
 
 David Leip's Atlas of U.S. Presidential Elections.
-`http://uselectionatlas.org <http://uselectionatlas.org>`__
+http://uselectionatlas.org
 
 References
 ~~~~~~~~~~
@@ -75,4 +74,3 @@ Examples
     glm1 <- glm(y ~ gorevote + rep,
                 data=iraqVote,
                 family=binomial(link=probit))
-
